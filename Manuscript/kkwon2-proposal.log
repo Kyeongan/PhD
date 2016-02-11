@@ -1,0 +1,588 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2016 23:07
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**kkwon2-proposal.tex
+(./kkwon2-proposal.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./uhthesis3.sty
+Document Style Option `uhthesis' <31 Aug 90>.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen107
+\epsfframethickness=\dimen108
+\epsfrsize=\dimen109
+\epsftmp=\dimen110
+\epsftsize=\dimen111
+\epsfxsize=\dimen112
+\epsfysize=\dimen113
+\pspoints=\dimen114
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen115
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count91
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count92
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen116
+\Fld@menulength=\count93
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen119
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen120
+\subfiglabelskip=\skip47
+\c@subfigure=\count99
+\c@lofdepth=\count100
+\c@subtable=\count101
+\c@lotdepth=\count102
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+(./definitions.tex
+\c@lfigcounter=\count103
+) (./kkwon2-proposal.aux)
+\openout1 = `kkwon2-proposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen121
+\scratchbox=\box26
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen122
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 30.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count110
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
+
+(./kkwon2-proposal.out) (./kkwon2-proposal.out)
+\@outlinefile=\write3
+\openout3 = `kkwon2-proposal.out'.
+
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+ [4] (./abstract.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+)
+[5] (./kkwon2-proposal.toc)
+\tf@toc=\write4
+\openout4 = `kkwon2-proposal.toc'.
+
+ [6
+
+] (./kkwon2-proposal.lof)
+\tf@lof=\write5
+\openout5 = `kkwon2-proposal.lof'.
+
+ [7
+
+]
+(./kkwon2-proposal.lot)
+\tf@lot=\write6
+\openout6 = `kkwon2-proposal.lot'.
+
+ [8
+
+] (./chap1_Introduction.tex
+Chapter 1.
+[1
+
+] [2]) (./chap3_Methods.tex [3]
+Chapter 2.
+
+LaTeX Warning: Citation `nvd3org' on page 4 undefined on input line 7.
+
+
+LaTeX Warning: Citation `nsf' on page 4 undefined on input line 10.
+
+
+LaTeX Warning: Citation `nih' on page 4 undefined on input line 10.
+
+
+LaTeX Warning: Citation `XMLStarlet' on page 4 undefined on input line 10.
+
+<figures/fig_scaleView.png, id=179, 1543.7675pt x 474.77374pt>
+File: figures/fig_scaleView.png Graphic file (type png)
+
+<use figures/fig_scaleView.png>
+Package pdftex.def Info: figures/fig_scaleView.png used on input line 14.
+(pdftex.def)             Requested size: 430.00627pt x 132.24026pt.
+ [4
+
+]
+<figures/fig_cv_google_scholarplot.png, id=184, 2328.7pt x 801.99625pt>
+File: figures/fig_cv_google_scholarplot.png Graphic file (type png)
+
+<use figures/fig_cv_google_scholarplot.png>
+Package pdftex.def Info: figures/fig_cv_google_scholarplot.png used on input li
+ne 20.
+(pdftex.def)             Requested size: 860.01254pt x 296.18327pt.
+
+Overfull \hbox (430.00627pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+[5 <./figures/fig_scaleView.png (PNG copy)>] [6 <./figures/fig_cv_google_schola
+rplot.png>] <figures/fig_tooltip.png, id=198, 1044.90375pt x 398.48875pt>
+File: figures/fig_tooltip.png Graphic file (type png)
+
+<use figures/fig_tooltip.png>
+Package pdftex.def Info: figures/fig_tooltip.png used on input line 36.
+(pdftex.def)             Requested size: 430.00627pt x 163.98949pt.
+
+<figures/fig_legend-toggle.png, id=201, 782.925pt x 145.54375pt>
+File: figures/fig_legend-toggle.png Graphic file (type png)
+
+<use figures/fig_legend-toggle.png>
+Package pdftex.def Info: figures/fig_legend-toggle.png used on input line 45.
+(pdftex.def)             Requested size: 387.003pt x 71.94331pt.
+ [7]
+<figures/fig_funding_default.png, id=207, 996.72375pt x 453.695pt>
+File: figures/fig_funding_default.png Graphic file (type png)
+
+<use figures/fig_funding_default.png>
+Package pdftex.def Info: figures/fig_funding_default.png used on input line 59.
+
+(pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
+
+<figures/fig_funding_total.png, id=208, 996.72375pt x 453.695pt>
+File: figures/fig_funding_total.png Graphic file (type png)
+
+<use figures/fig_funding_total.png>
+Package pdftex.def Info: figures/fig_funding_total.png used on input line 60.
+(pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
+
+<figures/fig_distribution_A.png, id=213, 211.79124pt x 692.5875pt>
+File: figures/fig_distribution_A.png Graphic file (type png)
+
+<use figures/fig_distribution_A.png>
+Package pdftex.def Info: figures/fig_distribution_A.png used on input line 101.
+
+(pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
+
+<figures/fig_distribution_B.png, id=214, 211.79124pt x 692.5875pt>
+File: figures/fig_distribution_B.png Graphic file (type png)
+
+<use figures/fig_distribution_B.png>
+Package pdftex.def Info: figures/fig_distribution_B.png used on input line 104.
+
+(pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
+
+<figures/fig_distribution_C.png, id=215, 211.79124pt x 692.5875pt>
+File: figures/fig_distribution_C.png Graphic file (type png)
+
+<use figures/fig_distribution_C.png>
+Package pdftex.def Info: figures/fig_distribution_C.png used on input line 107.
+
+(pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
+ [8]
+
+LaTeX Warning: Citation `htmlSQL' on page 9 undefined on input line 129.
+
+
+Overfull \hbox (4.1685pt too wide) in paragraph at lines 129--131
+[]\OT1/cmr/m/n/12 The server-side ap-pli-ca-tion is im-ple-mented in PHP script
+-ing lan-guage and MySQL.
+ []
+
+<figures/fig_system_architecture.pdf, id=221, 963.6pt x 542.025pt>
+File: figures/fig_system_architecture.pdf Graphic file (type pdf)
+
+<use figures/fig_system_architecture.pdf>
+Package pdftex.def Info: figures/fig_system_architecture.pdf used on input line
+ 134.
+(pdftex.def)             Requested size: 430.00627pt x 241.87442pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 149.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
+ [10]
+Overfull \hbox (60.1129pt too wide) in paragraph at lines 157--158
+\OT1/cmr/m/n/12 the same ini-tial, $\OML/cmm/m/it/12 M[]$ \OT1/cmr/m/n/12 or $\
+OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 , then map all of the $\OML/cmm/m/it/12 A[]Pe
+tersen$ \OT1/cmr/m/n/12 to $\OML/cmm/m/it/12 AlexanderMichaelPetersen$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+[11] [12]
+
+LaTeX Warning: Reference `alg:name' on page 13 undefined on input line 182.
+
+) (./chap4_Algorithms.tex [13] [14 <./figures/fig_tooltip.png (PNG copy)> <./fi
+gures/fig_legend-toggle.png (PNG copy)>] [15 <./figures/fig_funding_default.png
+ (PNG copy)> <./figures/fig_funding_total.png (PNG copy)>] [16 <./figures/fig_d
+istribution_A.png (PNG copy)> <./figures/fig_distribution_B.png (PNG copy)> <./
+figures/fig_distribution_C.png (PNG copy)>] [17 <./figures/fig_system_architect
+ure.pdf>]
+Chapter 3.
+[18
+
+] <figures/fig-EugeneStanley.png, id=351, 2566.58875pt x 2196.205pt>
+File: figures/fig-EugeneStanley.png Graphic file (type png)
+
+<use figures/fig-EugeneStanley.png>
+Package pdftex.def Info: figures/fig-EugeneStanley.png used on input line 12.
+(pdftex.def)             Requested size: 344.00632pt x 294.36366pt.
+ [19 <./figures/fig-EugeneStanley.png>]
+[20] <figures/fig-disksize.png, id=365, 524.96124pt x 227.85126pt>
+File: figures/fig-disksize.png Graphic file (type png)
+
+<use figures/fig-disksize.png>
+Package pdftex.def Info: figures/fig-disksize.png used on input line 27.
+(pdftex.def)             Requested size: 344.00632pt x 149.31493pt.
+
+<figures/fig-ThadStarner.png, id=370, 1064.97874pt x 386.44376pt>
+File: figures/fig-ThadStarner.png Graphic file (type png)
+
+<use figures/fig-ThadStarner.png>
+Package pdftex.def Info: figures/fig-ThadStarner.png used on input line 40.
+(pdftex.def)             Requested size: 44.0pt x 15.96222pt.
+
+Underfull \hbox (badness 2744) in paragraph at lines 40--40
+[]\OT1/cmr/m/n/10 (a) SP of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+\OT1/cmr/m/n/10 plished
+ []
+
+<figures/fig-LawrencePinsky.png, id=371, 1064.97874pt x 386.44376pt>
+File: figures/fig-LawrencePinsky.png Graphic file (type png)
+
+<use figures/fig-LawrencePinsky.png>
+Package pdftex.def Info: figures/fig-LawrencePinsky.png used on input line 43.
+(pdftex.def)             Requested size: 44.0pt x 15.96222pt.
+
+Underfull \hbox (badness 2181) in paragraph at lines 43--43
+[]\OT1/cmr/m/n/10 (b) SP of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\OT1/cmr/m/n/10 plished
+ []
+
+<figures/fig-EugeneStanley-pub.png, id=372, 1064.97874pt x 386.44376pt>
+File: figures/fig-EugeneStanley-pub.png Graphic file (type png)
+
+<use figures/fig-EugeneStanley-pub.png>
+Package pdftex.def Info: figures/fig-EugeneStanley-pub.png used on input line 4
+6.
+(pdftex.def)             Requested size: 44.0pt x 15.96222pt.
+
+Underfull \hbox (badness 3407) in paragraph at lines 46--46
+[]\OT1/cmr/m/n/10 (c) SP of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\OT1/cmr/m/n/10 a fa-mous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\OT1/cmr/m/n/10 In-ter-dis-ci-
+ []
+
+[21 <./figures/fig-disksize.png (PNG copy)>] [22 <./figures/fig-ThadStarner.png
+ (PNG copy)> <./figures/fig-LawrencePinsky.png (PNG copy)> <./figures/fig-Eugen
+eStanley-pub.png (PNG copy)>]) (./chap5_Results.tex [23]
+Chapter 4.
+[24
+
+] <figures/fig_survey_chart.png, id=405, 1045.65656pt x 493.0922pt>
+File: figures/fig_survey_chart.png Graphic file (type png)
+
+<use figures/fig_survey_chart.png>
+Package pdftex.def Info: figures/fig_survey_chart.png used on input line 9.
+(pdftex.def)             Requested size: 430.00627pt x 202.77855pt.
+) (./chap6_Conclusion.tex [25 <./figures/fig_survey_chart.png>]
+Chapter 5.
+) (./kkwon2-proposal.bbl [26
+
+] [27
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+ [28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+ (./kkwon2-proposal.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+Package rerunfilecheck Info: File `kkwon2-proposal.out' has not changed.
+(rerunfilecheck)             Checksum: BEDE2028AF2758411450439E6676498D;893.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+ ) 
+Here is how much of TeX's memory you used:
+ 5681 strings out of 493089
+ 85074 string characters out of 6134842
+ 172088 words of memory out of 5000000
+ 9000 multiletter control sequences out of 15000+600000
+ 9016 words of font info for 32 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,7n,29p,1955b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on kkwon2-proposal.pdf (36 pages, 2284745 bytes).
+PDF statistics:
+ 482 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: kkwon2-proposal.aux
+The style file: abbrv.bst
+Database file #1: thesis.bib
+Warning--I didn't find a database entry for "nvd3org"
+Warning--I didn't find a database entry for "nsf"
+Warning--I didn't find a database entry for "nih"
+Warning--I didn't find a database entry for "XMLStarlet"
+Warning--I didn't find a database entry for "htmlSQL"
+You've used 9 entries,
+            2118 wiz_defined-function locations,
+            582 strings with 5746 characters,
+and the built_in function-call counts, 3596 in all, are:
+= -- 383
+> -- 140
+< -- 4
++ -- 57
+- -- 46
+* -- 255
+:= -- 566
+add.period$ -- 31
+call.type$ -- 9
+change.case$ -- 50
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 143
+empty$ -- 284
+format.name$ -- 46
+if$ -- 778
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 18
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 41
+quote$ -- 0
+skip$ -- 103
+stack$ -- 0
+substring$ -- 278
+swap$ -- 41
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 0
+while$ -- 40
+width$ -- 10
+write$ -- 109
+(There were 5 warnings)
