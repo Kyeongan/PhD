@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  10 FEB 2016 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 FEB 2016 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -211,39 +211,76 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip48
 \subfig@bottom=\skip49
 )
-(./definitions.tex
-\c@lfigcounter=\count103
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count103
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks17
+\c@algorithm=\count104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count105
+\c@ALG@rem=\count106
+\c@ALG@nested=\count107
+\ALG@tlm=\skip50
+\ALG@thistlm=\skip51
+\c@ALG@Lnr=\count108
+\c@ALG@blocknr=\count109
+\c@ALG@storecount=\count110
+\c@ALG@tmpcounter=\count111
+\ALG@tmplength=\skip52
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (./definitions.tex
+\c@lfigcounter=\count112
 ) (./kkwon2-proposal.aux)
 \openout1 = `kkwon2-proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
+\scratchcounter=\count113
 \scratchdimen=\dimen121
-\scratchbox=\box26
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count107
+\scratchbox=\box28
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count116
 \MPscratchDim=\dimen122
-\MPnumerator=\count108
-\makeMPintoPDFobject=\count109
-\everyMPtoPDFconversion=\toks16
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks19
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -259,8 +296,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 30.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 33.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -268,11 +305,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count110
+\c@section@level=\count119
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./kkwon2-proposal.out) (./kkwon2-proposal.out)
 \@outlinefile=\write3
@@ -289,30 +326,67 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 1.
 )
-[5] (./kkwon2-proposal.toc)
+[5]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
 \openout4 = `kkwon2-proposal.toc'.
 
- [6
+[6
 
-] (./kkwon2-proposal.lof)
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write5
 \openout5 = `kkwon2-proposal.lof'.
 
- [7
+[7
 
 ]
-(./kkwon2-proposal.lot)
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write6
 \openout6 = `kkwon2-proposal.lot'.
 
- [8
+[8
 
 ] (./chap1_Introduction.tex
 Chapter 1.
 [1
 
-] [2]) (./chap3_Methods.tex [3]
+]
+
+LaTeX Warning: Citation `Hirsch:2005' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Bornmann:2009' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Chen:2001' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Leydesdorff:2007' on page 2 undefined on input line 11
+.
+
+
+LaTeX Warning: Citation `Nowell:1997' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Bergstrom:2009' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Lee:2005' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Kaur:2014' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Vardell:2011' on page 2 undefined on input line 13.
+
+[2]) (./chap3_Methods.tex [3]
 Chapter 2.
 
 LaTeX Warning: Citation `nvd3org' on page 4 undefined on input line 7.
@@ -326,7 +400,7 @@ LaTeX Warning: Citation `nih' on page 4 undefined on input line 10.
 
 LaTeX Warning: Citation `XMLStarlet' on page 4 undefined on input line 10.
 
-<figures/fig_scaleView.png, id=179, 1543.7675pt x 474.77374pt>
+<figures/fig_scaleView.png, id=60, 1543.7675pt x 474.77374pt>
 File: figures/fig_scaleView.png Graphic file (type png)
 
 <use figures/fig_scaleView.png>
@@ -335,7 +409,7 @@ Package pdftex.def Info: figures/fig_scaleView.png used on input line 14.
  [4
 
 ]
-<figures/fig_cv_google_scholarplot.png, id=184, 2328.7pt x 801.99625pt>
+<figures/fig_cv_google_scholarplot.png, id=67, 2328.7pt x 801.99625pt>
 File: figures/fig_cv_google_scholarplot.png Graphic file (type png)
 
 <use figures/fig_cv_google_scholarplot.png>
@@ -347,22 +421,63 @@ Overfull \hbox (430.00627pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
-[5 <./figures/fig_scaleView.png (PNG copy)>] [6 <./figures/fig_cv_google_schola
-rplot.png>] <figures/fig_tooltip.png, id=198, 1044.90375pt x 398.48875pt>
+
+LaTeX Warning: Reference `fig:fig-publication' on page 5 undefined on input lin
+e 25.
+
+
+LaTeX Warning: Reference `fig:fig-scale' on page 5 undefined on input line 25.
+
+
+LaTeX Warning: Reference `fig:fig-tooltip' on page 5 undefined on input line 32
+.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.33 
+      <./figures/fig_scaleView.png (PNG copy)>] [6pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2.2}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.33 
+      <./figures/fig_cv_google_scholarplot.png>]
+<figures/fig_tooltip.png, id=79, 1044.90375pt x 398.48875pt>
 File: figures/fig_tooltip.png Graphic file (type png)
 
 <use figures/fig_tooltip.png>
 Package pdftex.def Info: figures/fig_tooltip.png used on input line 36.
 (pdftex.def)             Requested size: 430.00627pt x 163.98949pt.
+ [7]
 
-<figures/fig_legend-toggle.png, id=201, 782.925pt x 145.54375pt>
+LaTeX Warning: Reference `fig:fig-publication' on page 8 undefined on input lin
+e 41.
+
+
+LaTeX Warning: Reference `fig:fig-legend' on page 8 undefined on input line 41.
+
+
+<figures/fig_legend-toggle.png, id=86, 782.925pt x 145.54375pt>
 File: figures/fig_legend-toggle.png Graphic file (type png)
 
 <use figures/fig_legend-toggle.png>
 Package pdftex.def Info: figures/fig_legend-toggle.png used on input line 45.
 (pdftex.def)             Requested size: 387.003pt x 71.94331pt.
- [7]
-<figures/fig_funding_default.png, id=207, 996.72375pt x 453.695pt>
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.51 
+      <./figures/fig_tooltip.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:funding' on page 9 undefined on input line 55.
+
+<figures/fig_funding_default.png, id=92, 996.72375pt x 453.695pt>
 File: figures/fig_funding_default.png Graphic file (type png)
 
 <use figures/fig_funding_default.png>
@@ -370,14 +485,36 @@ Package pdftex.def Info: figures/fig_funding_default.png used on input line 59.
 
 (pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
 
-<figures/fig_funding_total.png, id=208, 996.72375pt x 453.695pt>
+<figures/fig_funding_total.png, id=93, 996.72375pt x 453.695pt>
 File: figures/fig_funding_total.png Graphic file (type png)
 
 <use figures/fig_funding_total.png>
 Package pdftex.def Info: figures/fig_funding_total.png used on input line 60.
 (pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
 
-<figures/fig_distribution_A.png, id=213, 211.79124pt x 692.5875pt>
+
+LaTeX Warning: Reference `fig:fig-scale' on page 9 undefined on input line 93.
+
+
+LaTeX Warning: Reference `fig:distribution' on page 9 undefined on input line 9
+5.
+
+
+LaTeX Warning: Reference `fig:distribution' on page 9 undefined on input line 9
+5.
+
+
+LaTeX Warning: Reference `fig:distribution' on page 9 undefined on input line 9
+5.
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.96 
+      <./figures/fig_legend-toggle.png (PNG copy)>]
+<figures/fig_distribution_A.png, id=100, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_A.png Graphic file (type png)
 
 <use figures/fig_distribution_A.png>
@@ -385,7 +522,7 @@ Package pdftex.def Info: figures/fig_distribution_A.png used on input line 101.
 
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
 
-<figures/fig_distribution_B.png, id=214, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_B.png, id=101, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_B.png Graphic file (type png)
 
 <use figures/fig_distribution_B.png>
@@ -393,16 +530,20 @@ Package pdftex.def Info: figures/fig_distribution_B.png used on input line 104.
 
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
 
-<figures/fig_distribution_C.png, id=215, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_C.png, id=102, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_C.png Graphic file (type png)
 
 <use figures/fig_distribution_C.png>
 Package pdftex.def Info: figures/fig_distribution_C.png used on input line 107.
 
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
- [8]
 
-LaTeX Warning: Citation `htmlSQL' on page 9 undefined on input line 129.
+
+LaTeX Warning: Reference `fig:fig-arch' on page 10 undefined on input line 129.
+
+
+
+LaTeX Warning: Citation `htmlSQL' on page 10 undefined on input line 129.
 
 
 Overfull \hbox (4.1685pt too wide) in paragraph at lines 129--131
@@ -410,7 +551,7 @@ Overfull \hbox (4.1685pt too wide) in paragraph at lines 129--131
 -ing lan-guage and MySQL.
  []
 
-<figures/fig_system_architecture.pdf, id=221, 963.6pt x 542.025pt>
+[10] <figures/fig_system_architecture.pdf, id=108, 963.6pt x 542.025pt>
 File: figures/fig_system_architecture.pdf Graphic file (type pdf)
 
 <use figures/fig_system_architecture.pdf>
@@ -418,154 +559,28 @@ Package pdftex.def Info: figures/fig_system_architecture.pdf used on input line
  134.
 (pdftex.def)             Requested size: 430.00627pt x 241.87442pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
- []
+LaTeX Warning: Reference `alg:name' on page 11 undefined on input line 143.
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 146.
+./chap3_Methods.tex:149: Undefined control sequence.
+l.149 \State $\textit{FirstName} \gets \text
+                                            {first name in Google Scholar }$
+? 
+./chap3_Methods.tex:149: Emergency stop.
+l.149 \State $\textit{FirstName} \gets \text
+                                            {first name in Google Scholar }$
+End of file on the terminal!
 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 149.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 149.
- [10]
-Overfull \hbox (60.1129pt too wide) in paragraph at lines 157--158
-\OT1/cmr/m/n/12 the same ini-tial, $\OML/cmm/m/it/12 M[]$ \OT1/cmr/m/n/12 or $\
-OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 , then map all of the $\OML/cmm/m/it/12 A[]Pe
-tersen$ \OT1/cmr/m/n/12 to $\OML/cmm/m/it/12 AlexanderMichaelPetersen$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-[11] [12]
-
-LaTeX Warning: Reference `alg:name' on page 13 undefined on input line 182.
-
-) (./chap4_Algorithms.tex [13] [14 <./figures/fig_tooltip.png (PNG copy)> <./fi
-gures/fig_legend-toggle.png (PNG copy)>] [15 <./figures/fig_funding_default.png
- (PNG copy)> <./figures/fig_funding_total.png (PNG copy)>] [16 <./figures/fig_d
-istribution_A.png (PNG copy)> <./figures/fig_distribution_B.png (PNG copy)> <./
-figures/fig_distribution_C.png (PNG copy)>] [17 <./figures/fig_system_architect
-ure.pdf>]
-Chapter 3.
-[18
-
-] <figures/fig-EugeneStanley.png, id=351, 2566.58875pt x 2196.205pt>
-File: figures/fig-EugeneStanley.png Graphic file (type png)
-
-<use figures/fig-EugeneStanley.png>
-Package pdftex.def Info: figures/fig-EugeneStanley.png used on input line 12.
-(pdftex.def)             Requested size: 430.00627pt x 367.95459pt.
- [19] [20 <./figures/fig-EugeneStanley.png>] <figures/fig-disksize.png, id=365,
- 524.96124pt x 227.85126pt>
-File: figures/fig-disksize.png Graphic file (type png)
-
-<use figures/fig-disksize.png>
-Package pdftex.def Info: figures/fig-disksize.png used on input line 27.
-(pdftex.def)             Requested size: 215.00313pt x 93.31879pt.
- [21 <./figures/fig-disksize.png (PNG copy)>]
-<figures/fig-ThadStarner.png, id=376, 1064.97874pt x 386.44376pt>
-File: figures/fig-ThadStarner.png Graphic file (type png)
-
-<use figures/fig-ThadStarner.png>
-Package pdftex.def Info: figures/fig-ThadStarner.png used on input line 40.
-(pdftex.def)             Requested size: 430.00627pt x 156.03123pt.
-
-Overfull \hbox (3.91663pt too wide) in paragraph at lines 40--40
- [][] 
- []
-
-<figures/fig-LawrencePinsky.png, id=377, 1064.97874pt x 386.44376pt>
-File: figures/fig-LawrencePinsky.png Graphic file (type png)
-
-<use figures/fig-LawrencePinsky.png>
-Package pdftex.def Info: figures/fig-LawrencePinsky.png used on input line 43.
-(pdftex.def)             Requested size: 430.00627pt x 156.03123pt.
-
-Overfull \hbox (3.91663pt too wide) in paragraph at lines 43--43
- [][] 
- []
-
-<figures/fig-EugeneStanley-pub.png, id=378, 1064.97874pt x 386.44376pt>
-File: figures/fig-EugeneStanley-pub.png Graphic file (type png)
-
-<use figures/fig-EugeneStanley-pub.png>
-Package pdftex.def Info: figures/fig-EugeneStanley-pub.png used on input line 4
-6.
-(pdftex.def)             Requested size: 430.00627pt x 156.03123pt.
-
-Overfull \hbox (3.91663pt too wide) in paragraph at lines 46--47
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 6.63371pt on input line 48.
-
-[22] [23 <./figures/fig-ThadStarner.png (PNG copy)> <./figures/fig-LawrencePins
-ky.png (PNG copy)> <./figures/fig-EugeneStanley-pub.png (PNG copy)>])
-(./chap5_Results.tex [24]
-Chapter 4.
-[25
-
-] <figures/fig_survey_chart.png, id=409, 1045.65656pt x 493.0922pt>
-File: figures/fig_survey_chart.png Graphic file (type png)
-
-<use figures/fig_survey_chart.png>
-Package pdftex.def Info: figures/fig_survey_chart.png used on input line 9.
-(pdftex.def)             Requested size: 430.00627pt x 202.77855pt.
-) (./chap6_Conclusion.tex [26 <./figures/fig_survey_chart.png>]
-Chapter 5.
-) (./kkwon2-proposal.bbl [27
-
-] [28
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
- [29]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
- (./kkwon2-proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
-Package rerunfilecheck Info: File `kkwon2-proposal.out' has not changed.
-(rerunfilecheck)             Checksum: BEDE2028AF2758411450439E6676498D;893.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 5682 strings out of 493089
- 85081 string characters out of 6134842
- 172088 words of memory out of 5000000
- 9000 multiletter control sequences out of 15000+600000
- 9016 words of font info for 32 fonts, out of 8000000 for 9000
+ 6147 strings out of 493089
+ 91391 string characters out of 6134842
+ 175900 words of memory out of 5000000
+ 9528 multiletter control sequences out of 15000+600000
+ 9148 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,7n,29p,1955b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on kkwon2-proposal.pdf (37 pages, 2284433 bytes).
-PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 34i,6n,29p,1955b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+./chap3_Methods.tex:149:  ==> Fatal error occurred, no output PDF file produced
+!
