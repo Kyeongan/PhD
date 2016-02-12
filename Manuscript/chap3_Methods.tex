@@ -1,4 +1,4 @@
-\chapter{Methods}\label{chap:Methods }
+\chapter{Design and Methodology}\label{chap:Methods }
 
 
 % =============================================================================
@@ -136,8 +136,42 @@ The server-side application is implemented in PHP scripting language and MySQL. 
 %\vspace{-1ex} 
 \end{figure}
 
+
 % =============================================================================
 \section{Name Disambiguation}
+% =============================================================================
+Google Scholar data has to be cleaned because it contains many non-english characters. We use regular expression to remove the invalid special characters and translate phonetic characters to english alphabets. We designed and implemented Algorithm \ref{alg:name} to match the author names in Google Scholar with those in NSF/NIH data. This process helps to improve the quality of results. 
+
+\begin{algorithm}
+\caption{Name disambiguation}\label{alg:name}
+\begin{algorithmic}[1]
+\Procedure{Searching for Author Name}{}
+\State $\textit{FirstName} \gets \text{first name in Google Scholar }$
+\State $\textit{LastName} \gets \text{last name in Google Scholar }$
+\State $\textit{MiddleInitial} \gets \text{middle initial in Google Scholar }$
+\If {$lastNameInFundingData = LastName$}
+\If {$firstNameInFundingData = FirstName$} 
+\If {$MiddleInitial$ is null } 
+{\Return true}
+\Else{
+\text{Search for} ($MiddleInitial, FirstName$) and ($FirstName, MiddleInitial$) 
+\If { $found$} \Return true
+\Else{ \Return false}
+\EndIf
+}
+\EndIf
+\EndIf
+\EndIf
+
+\Return false
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+
+
+
+% =============================================================================
+\section{Name Disambiguation - Details}
 \subsection{Within and across profile author name disambiguation}
 
 Let $i$ be an index for the Google scholar profile researchers. Within each collaboration profile of $i$,  there are a set of $K_{0}$ raw name strings that you have extracted,  $Names_{k}$ indexed by $k_{i}$. We will use the fact that these strings are associated with profile $i$ in the process of name disambiguation across Google Scholar profiles. The following provides an outline of this procedure: \\
