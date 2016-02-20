@@ -1,6 +1,18 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Design and Methodology}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Visualization and User Interface}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Visualizing Publication Data}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{Visualizing Funding Data}{section.2.1}% 5
-\BOOKMARK [1][-]{section.2.2}{System Architecture}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.2}{Related work}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Methodology}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Visualization and User Interface}{chapter.3}% 4
+\BOOKMARK [2][-]{subsection.3.1.1}{Visualizing Publication Data}{section.3.1}% 5
+\BOOKMARK [2][-]{subsection.3.1.2}{Visualizing Funding Data}{section.3.1}% 6
+\BOOKMARK [1][-]{section.3.2}{System Architecture}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.3}{Name Disambiguation}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.4}{Name Disambiguation - Details}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.4.1}{Within and across profile author name disambiguation}{section.3.4}% 10
+\BOOKMARK [0][-]{chapter.4}{Design and Methodology}{}% 11
+\BOOKMARK [1][-]{section.4.1}{Scholar Plot Design - Base Level}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.2}{Scholar Plot Data Sources}{chapter.4}% 13
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 14
+\BOOKMARK [1][-]{section.5.1}{Usability Feedback}{chapter.5}% 15
+\BOOKMARK [2][-]{subsection.5.1.1}{User Feedback - Focus Group}{section.5.1}% 16
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 17
+\BOOKMARK [0][-]{chapter.6}{Bibliography}{}% 18

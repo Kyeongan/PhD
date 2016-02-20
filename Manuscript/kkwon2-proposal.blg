@@ -1,48 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: kkwon2-proposal.aux
-I found no \citation commands---while reading file kkwon2-proposal.aux
-I found no \bibdata command---while reading file kkwon2-proposal.aux
-I found no \bibstyle command---while reading file kkwon2-proposal.aux
-You've used 0 entries,
-            0 wiz_defined-function locations,
-            83 strings with 504 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+The style file: abbrv.bst
+Database file #1: kkwon2.bib
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            594 strings with 6000 characters,
+and the built_in function-call counts, 4628 in all, are:
+= -- 478
+> -- 175
+< -- 4
++ -- 72
+- -- 56
+* -- 285
+:= -- 738
+add.period$ -- 46
+call.type$ -- 14
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 14
+duplicate$ -- 178
+empty$ -- 394
+format.name$ -- 56
+if$ -- 1003
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+int.to.str$ -- 14
+missing$ -- 9
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 93
+preamble$ -- 1
+purify$ -- 56
 quote$ -- 0
-skip$ -- 0
+skip$ -- 137
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 303
+swap$ -- 46
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 56
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 3 error messages)
+while$ -- 50
+width$ -- 16
+write$ -- 159

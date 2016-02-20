@@ -1,4 +1,4 @@
-\chapter{Design and Methodology}\label{chap:Methods }
+\chapter{Methodology}\label{chap:Methods }
 
 
 % =============================================================================
@@ -7,7 +7,7 @@
 Scholar Plot obtains the Impact Factor ($IF$) for a particular journal from our database. The data of Impact Factor is acquired from The Thomson Reuters Impact Factor - Web of Science. Based on all this information it constructs the plots as per the design outlined in the Visualization and User Interface section, using nvd3 library \cite{nvd3org}.
 
 
-The NSF/NIH funding datasets are available at the respective US government websites in various file formats such as XML, CSV and so on \cite{nsf, nih}. We implemented a script to parse this massive XML dataset into our data structure that consists of AwardID, AwardAmount, First name, Last name, Investigator by RoleCode (Principal Investigator, Co-Principal Investigator and Former Principal Investigator), using XMLStarlet \cite{XMLStarlet}. We imported this data to our database using Toad DBMS tool. %We designed our relational database schema in MySQL.
+The NSF/NIH/NASA funding datasets are available at the respective US government websites in various file formats such as XML, CSV and so on \cite{nsf, nih}. We implemented a script to parse this massive XML dataset into our data structure that consists of AwardID, AwardAmount, First name, Last name, Investigator by RoleCode (Principal Investigator, Co-Principal Investigator and Former Principal Investigator), using XMLStarlet \cite{XMLStarlet}. We imported this data to our database using Toad DBMS tool. %We designed our relational database schema in MySQL.
 
 \begin{figure}%[!htb]
 \centering
@@ -17,7 +17,7 @@ The NSF/NIH funding datasets are available at the respective US government websi
 
 \begin{figure*}
   \centering
-  \includegraphics[width=2\columnwidth]{figures/fig_cv_google_scholarplot}
+  \includegraphics[width=1\columnwidth]{figures/fig_cv_google_scholarplot}
   \caption{An example of Scholar Plot - Visualizing Publication Data}~\label{fig:fig-publication}
  % \vspace{-1ex} 
 \end{figure*}
@@ -142,31 +142,6 @@ The server-side application is implemented in PHP scripting language and MySQL. 
 % =============================================================================
 Google Scholar data has to be cleaned because it contains many non-english characters. We use regular expression to remove the invalid special characters and translate phonetic characters to english alphabets. We designed and implemented Algorithm \ref{alg:name} to match the author names in Google Scholar with those in NSF/NIH data. This process helps to improve the quality of results. 
 
-\begin{algorithm}
-\caption{Name disambiguation}\label{alg:name}
-\begin{algorithmic}[1]
-\Procedure{Searching for Author Name}{}
-\State $\textit{FirstName} \gets \text{first name in Google Scholar }$
-\State $\textit{LastName} \gets \text{last name in Google Scholar }$
-\State $\textit{MiddleInitial} \gets \text{middle initial in Google Scholar }$
-\If {$lastNameInFundingData = LastName$}
-\If {$firstNameInFundingData = FirstName$} 
-\If {$MiddleInitial$ is null } 
-{\Return true}
-\Else{
-\text{Search for} ($MiddleInitial, FirstName$) and ($FirstName, MiddleInitial$) 
-\If { $found$} \Return true
-\Else{ \Return false}
-\EndIf
-}
-\EndIf
-\EndIf
-\EndIf
-
-\Return false
-\EndProcedure
-\end{algorithmic}
-\end{algorithm}
 
 
 
