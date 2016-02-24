@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 FEB 2016 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 FEB 2016 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -211,76 +211,42 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip48
 \subfig@bottom=\skip49
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
+(./definitions.tex
+\c@lfigcounter=\count103
+) (./kkwon2-proposal.aux
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count103
-\float@exts=\toks15
-\float@box=\box26
-\@float@everytoks=\toks16
-\@floatcapt=\box27
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks17
-\c@algorithm=\count104
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
-Package: algpseudocode 
+LaTeX Warning: Label `fig:fig-arch' multiply defined.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
-Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
-
-Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count105
-\c@ALG@rem=\count106
-\c@ALG@nested=\count107
-\ALG@tlm=\skip50
-\ALG@thistlm=\skip51
-\c@ALG@Lnr=\count108
-\c@ALG@blocknr=\count109
-\c@ALG@storecount=\count110
-\c@ALG@tmpcounter=\count111
-\ALG@tmplength=\skip52
 )
-Document Style - pseudocode environments for use with the `algorithmicx' style
-) (./definitions.tex
-\c@lfigcounter=\count112
-) (./kkwon2-proposal.aux)
 \openout1 = `kkwon2-proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
+\scratchcounter=\count104
 \scratchdimen=\dimen121
-\scratchbox=\box28
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count116
+\scratchbox=\box26
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count107
 \MPscratchDim=\dimen122
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks16
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -296,8 +262,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 34.
+\AtBeginShipoutBox=\box27
+Package hyperref Info: Link coloring OFF on input line 32.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -305,11 +271,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 34.
-LaTeX Info: Redefining \pageref on input line 34.
-LaTeX Info: Redefining \nameref on input line 34.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./kkwon2-proposal.out) (./kkwon2-proposal.out)
 \@outlinefile=\write3
@@ -349,58 +315,82 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Chapter 1.
 [1
 
-] [2]) (./chap3_Methods.tex [3]
+]
+
+LaTeX Warning: Citation `Hirsch:2005' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Bornmann:2009' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Chen:2001' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Leydesdorff:2007' on page 2 undefined on input line 11
+.
+
+
+LaTeX Warning: Citation `Nowell:1997' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Bergstrom:2009' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Lee:2005' on page 2 undefined on input line 11.
+
+
+LaTeX Warning: Citation `Kaur:2014' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation `Vardell:2011' on page 2 undefined on input line 13.
+
+[2]) (./chap3_Methods.tex [3]
 Chapter 2.
+
+LaTeX Warning: Citation `nvd3org' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `nsf' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Citation `nih' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Citation `XMLStarlet' on page 4 undefined on input line 8.
+
 [4
 
-] <figures/fig_scaleView.png, id=187, 1543.7675pt x 474.77374pt>
+] <figures/fig_scaleView.png, id=165, 1543.7675pt x 474.77374pt>
 File: figures/fig_scaleView.png Graphic file (type png)
 
 <use figures/fig_scaleView.png>
 Package pdftex.def Info: figures/fig_scaleView.png used on input line 12.
 (pdftex.def)             Requested size: 430.00627pt x 132.24026pt.
 
-<figures/fig_cv_google_scholarplot.png, id=188, 2328.7pt x 801.99625pt>
+<figures/fig_cv_google_scholarplot.png, id=166, 2328.7pt x 801.99625pt>
 File: figures/fig_cv_google_scholarplot.png Graphic file (type png)
 
 <use figures/fig_cv_google_scholarplot.png>
 Package pdftex.def Info: figures/fig_cv_google_scholarplot.png used on input li
 ne 18.
 (pdftex.def)             Requested size: 430.00627pt x 148.08551pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.31 
-      <./figures/fig_scaleView.png (PNG copy)>]
-<figures/fig_tooltip.png, id=198, 1044.90375pt x 398.48875pt>
+ [5 <./figures/fig_scaleView.png (PNG copy)> <./figures/fig_cv_google_scholarpl
+ot.png>]
+<figures/fig_tooltip.png, id=175, 1044.90375pt x 398.48875pt>
 File: figures/fig_tooltip.png Graphic file (type png)
 
 <use figures/fig_tooltip.png>
 Package pdftex.def Info: figures/fig_tooltip.png used on input line 34.
 (pdftex.def)             Requested size: 430.00627pt x 163.98949pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.38 
-      <./figures/fig_cv_google_scholarplot.png>]
-<figures/fig_legend-toggle.png, id=206, 782.925pt x 145.54375pt>
+ [6]
+<figures/fig_legend-toggle.png, id=183, 782.925pt x 145.54375pt>
 File: figures/fig_legend-toggle.png Graphic file (type png)
 
 <use figures/fig_legend-toggle.png>
 Package pdftex.def Info: figures/fig_legend-toggle.png used on input line 43.
 (pdftex.def)             Requested size: 387.003pt x 71.94331pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
-}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.49 
-      <./figures/fig_tooltip.png (PNG copy)>]
-<figures/fig_funding_default.png, id=212, 996.72375pt x 453.695pt>
+<figures/fig_funding_default.png, id=185, 996.72375pt x 453.695pt>
 File: figures/fig_funding_default.png Graphic file (type png)
 
 <use figures/fig_funding_default.png>
@@ -408,27 +398,21 @@ Package pdftex.def Info: figures/fig_funding_default.png used on input line 57.
 
 (pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
 
-<figures/fig_funding_total.png, id=213, 996.72375pt x 453.695pt>
+<figures/fig_funding_total.png, id=186, 996.72375pt x 453.695pt>
 File: figures/fig_funding_total.png Graphic file (type png)
 
 <use figures/fig_funding_total.png>
 Package pdftex.def Info: figures/fig_funding_total.png used on input line 58.
 (pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.94 
-      <./figures/fig_legend-toggle.png (PNG copy)>]
-<figures/fig_distribution_A.png, id=222, 211.79124pt x 692.5875pt>
+ [7]
+<figures/fig_distribution_A.png, id=195, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_A.png Graphic file (type png)
 
 <use figures/fig_distribution_A.png>
 Package pdftex.def Info: figures/fig_distribution_A.png used on input line 99.
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
 
-<figures/fig_distribution_B.png, id=223, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_B.png, id=196, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_B.png Graphic file (type png)
 
 <use figures/fig_distribution_B.png>
@@ -436,144 +420,137 @@ Package pdftex.def Info: figures/fig_distribution_B.png used on input line 102.
 
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
 
-<figures/fig_distribution_C.png, id=224, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_C.png, id=197, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_C.png Graphic file (type png)
 
 <use figures/fig_distribution_C.png>
 Package pdftex.def Info: figures/fig_distribution_C.png used on input line 105.
 
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
-) (./chap4_Algorithms.tex [9] [10pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.2.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Software Engineering and Algorithms}\label{chap:Algorithms} <./fig
-ures/fig_funding_default.png (PNG copy)> <./figures/fig_funding_total.png (PNG 
-copy)>] [11pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.2.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Software Engineering and Algorithms}\label{chap:Algorithms} <./fig
-ures/fig_distribution_A.png (PNG copy)> <./figures/fig_distribution_B.png (PNG 
-copy)> <./figures/fig_distribution_C.png (PNG copy)>]
+) (./chap4_Algorithms.tex [8] [9 <./figures/fig_tooltip.png (PNG copy)> <./figu
+res/fig_legend-toggle.png (PNG copy)>]
+[10 <./figures/fig_funding_default.png (PNG copy)> <./figures/fig_funding_total
+.png (PNG copy)>] [11 <./figures/fig_distribution_A.png (PNG copy)> <./figures/
+fig_distribution_B.png (PNG copy)> <./figures/fig_distribution_C.png (PNG copy)
+>]
 Chapter 3.
 [12
 
 ]
+
+LaTeX Warning: Citation `htmlSQL' on page 13 undefined on input line 8.
+
+
 Overfull \hbox (4.1685pt too wide) in paragraph at lines 8--10
 []\OT1/cmr/m/n/12 The server-side ap-pli-ca-tion is im-ple-mented in PHP script
 -ing lan-guage and MySQL.
  []
 
-<figures/fig_system_architecture.pdf, id=248, 963.6pt x 542.025pt>
+<figures/fig_system_architecture.pdf, id=224, 963.6pt x 542.025pt>
 File: figures/fig_system_architecture.pdf Graphic file (type pdf)
 
 <use figures/fig_system_architecture.pdf>
 Package pdftex.def Info: figures/fig_system_architecture.pdf used on input line
  13.
 (pdftex.def)             Requested size: 430.00627pt x 241.87442pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-1}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.23 
-      <./figures/fig_system_architecture.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+LaTeX Warning: Citation `nsf' on page 13 undefined on input line 18.
+
+
+LaTeX Warning: Citation `nih' on page 13 undefined on input line 18.
+
+
+LaTeX Warning: Citation `XMLStarlet' on page 13 undefined on input line 18.
+
+[13 <./figures/fig_system_architecture.pdf>]
+<figures/fig_EER_Diagram.pdf, id=307, 1121.9211pt x 785.65768pt>
+File: figures/fig_EER_Diagram.pdf Graphic file (type pdf)
+
+<use figures/fig_EER_Diagram.pdf>
+Package pdftex.def Info: figures/fig_EER_Diagram.pdf used on input line 25.
+(pdftex.def)             Requested size: 430.00627pt x 301.11848pt.
+ [14 <./figures/fig_EER_Diagram.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+[15]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
- [14]
-Overfull \hbox (60.1129pt too wide) in paragraph at lines 45--46
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+
+Overfull \hbox (60.1129pt too wide) in paragraph at lines 60--61
 \OT1/cmr/m/n/12 the same ini-tial, $\OML/cmm/m/it/12 M[]$ \OT1/cmr/m/n/12 or $\
 OML/cmm/m/it/12 M$\OT1/cmr/m/n/12 , then map all of the $\OML/cmm/m/it/12 A[]Pe
 tersen$ \OT1/cmr/m/n/12 to $\OML/cmm/m/it/12 AlexanderMichaelPetersen$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-[15] [16]
+[16] [17]
 
-LaTeX Warning: Reference `alg:name' on page 17 undefined on input line 70.
+LaTeX Warning: Reference `alg:name' on page 18 undefined on input line 85.
 
-) (./chap5_Results.tex [17]
+) (./chap5_Results.tex [18]
 Chapter 4.
-[18
+[19
 
-] <figures/fig_survey_chart.png, id=359, 1045.65656pt x 493.0922pt>
+] <figures/fig_survey_chart.png, id=375, 1045.65656pt x 493.0922pt>
 File: figures/fig_survey_chart.png Graphic file (type png)
 
 <use figures/fig_survey_chart.png>
 Package pdftex.def Info: figures/fig_survey_chart.png used on input line 14.
 (pdftex.def)             Requested size: 430.00627pt x 202.77855pt.
 
-<figures/fig_survey_form.png, id=360, 841.1425pt x 903.375pt>
+<figures/fig_survey_form.png, id=376, 841.1425pt x 903.375pt>
 File: figures/fig_survey_form.png Graphic file (type png)
 
 <use figures/fig_survey_form.png>
 Package pdftex.def Info: figures/fig_survey_form.png used on input line 21.
 (pdftex.def)             Requested size: 430.00627pt x 461.81792pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 \begin{description}
-                         <./figures/fig_survey_chart.png>] [20pdfTeX warning (e
-xt4): destination with the same identifier (name{figure.4.2}) has been already 
-used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 \begin{description}
-                         <./figures/fig_survey_form.png>])
-(./chap6_Conclusion.tex [21]
+ [20 <./figures/fig_survey_chart.png>]
+[21 <./figures/fig_survey_form.png>]) (./chap6_Conclusion.tex [22]
 Chapter 5.
-) (./kkwon2-proposal.bbl [22
+) (./kkwon2-proposal.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+ [23
 
-] [23
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
- [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./kkwon2-proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `kkwon2-proposal.out' has not changed.
-(rerunfilecheck)             Checksum: FE7B049A041796AC3460292C3FA542D3;1004.
+(rerunfilecheck)             Checksum: F8ECBA9C173ADA2F4E35602B71C06DDE;1027.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 6255 strings out of 493089
- 93049 string characters out of 6134842
- 178715 words of memory out of 5000000
- 9566 multiletter control sequences out of 15000+600000
+ 5645 strings out of 493089
+ 84354 string characters out of 6134842
+ 168520 words of memory out of 5000000
+ 8987 multiletter control sequences out of 15000+600000
  9016 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,29p,1955b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,29p,1955b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -585,10 +562,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on kkwon2-proposal.pdf (32 pages, 1691033 bytes).
+Output written on kkwon2-proposal.pdf (31 pages, 1699831 bytes).
 PDF statistics:
- 447 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
