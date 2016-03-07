@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 FEB 2016 07:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 12:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,14 +319,14 @@ Chapter 1.
 Chapter 2.
 [4
 
-] <figures/fig_scaleView.png, id=194, 1543.7675pt x 474.77374pt>
+] <figures/fig_scaleView.png, id=196, 1543.7675pt x 474.77374pt>
 File: figures/fig_scaleView.png Graphic file (type png)
 
 <use figures/fig_scaleView.png>
 Package pdftex.def Info: figures/fig_scaleView.png used on input line 12.
 (pdftex.def)             Requested size: 430.00627pt x 132.24026pt.
 
-<figures/fig_cv_google_scholarplot.png, id=195, 2328.7pt x 801.99625pt>
+<figures/fig_cv_google_scholarplot.png, id=197, 2328.7pt x 801.99625pt>
 File: figures/fig_cv_google_scholarplot.png Graphic file (type png)
 
 <use figures/fig_cv_google_scholarplot.png>
@@ -335,21 +335,21 @@ ne 18.
 (pdftex.def)             Requested size: 430.00627pt x 148.08551pt.
  [5 <./figures/fig_scaleView.png (PNG copy)> <./figures/fig_cv_google_scholarpl
 ot.png>]
-<figures/fig_tooltip.png, id=205, 1044.90375pt x 398.48875pt>
+<figures/fig_tooltip.png, id=207, 1044.90375pt x 398.48875pt>
 File: figures/fig_tooltip.png Graphic file (type png)
 
 <use figures/fig_tooltip.png>
 Package pdftex.def Info: figures/fig_tooltip.png used on input line 34.
 (pdftex.def)             Requested size: 430.00627pt x 163.98949pt.
  [6]
-<figures/fig_legend-toggle.png, id=213, 782.925pt x 145.54375pt>
+<figures/fig_legend-toggle.png, id=215, 782.925pt x 145.54375pt>
 File: figures/fig_legend-toggle.png Graphic file (type png)
 
 <use figures/fig_legend-toggle.png>
 Package pdftex.def Info: figures/fig_legend-toggle.png used on input line 43.
 (pdftex.def)             Requested size: 387.003pt x 71.94331pt.
 
-<figures/fig_funding_default.png, id=215, 996.72375pt x 453.695pt>
+<figures/fig_funding_default.png, id=217, 996.72375pt x 453.695pt>
 File: figures/fig_funding_default.png Graphic file (type png)
 
 <use figures/fig_funding_default.png>
@@ -357,21 +357,21 @@ Package pdftex.def Info: figures/fig_funding_default.png used on input line 57.
 
 (pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
 
-<figures/fig_funding_total.png, id=216, 996.72375pt x 453.695pt>
+<figures/fig_funding_total.png, id=218, 996.72375pt x 453.695pt>
 File: figures/fig_funding_total.png Graphic file (type png)
 
 <use figures/fig_funding_total.png>
 Package pdftex.def Info: figures/fig_funding_total.png used on input line 58.
 (pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
  [7]
-<figures/fig_distribution_A.png, id=225, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_A.png, id=227, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_A.png Graphic file (type png)
 
 <use figures/fig_distribution_A.png>
 Package pdftex.def Info: figures/fig_distribution_A.png used on input line 99.
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
 
-<figures/fig_distribution_B.png, id=226, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_B.png, id=228, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_B.png Graphic file (type png)
 
 <use figures/fig_distribution_B.png>
@@ -379,7 +379,7 @@ Package pdftex.def Info: figures/fig_distribution_B.png used on input line 102.
 
 (pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
 
-<figures/fig_distribution_C.png, id=227, 211.79124pt x 692.5875pt>
+<figures/fig_distribution_C.png, id=229, 211.79124pt x 692.5875pt>
 File: figures/fig_distribution_C.png Graphic file (type png)
 
 <use figures/fig_distribution_C.png>
@@ -401,7 +401,7 @@ Overfull \hbox (4.1685pt too wide) in paragraph at lines 8--10
 
 [12
 
-] <figures/fig_system_architecture.pdf, id=255, 963.6pt x 542.025pt>
+] <figures/fig_system_architecture.pdf, id=257, 963.6pt x 542.025pt>
 File: figures/fig_system_architecture.pdf Graphic file (type pdf)
 
 <use figures/fig_system_architecture.pdf>
@@ -409,7 +409,7 @@ Package pdftex.def Info: figures/fig_system_architecture.pdf used on input line
  13.
 (pdftex.def)             Requested size: 430.00627pt x 241.87442pt.
  [13 <./figures/fig_system_architecture.pdf>] <figures/fig_EER_Diagram.pdf, id=
-343, 1121.9211pt x 785.65768pt>
+345, 1121.9211pt x 785.65768pt>
 File: figures/fig_EER_Diagram.pdf Graphic file (type pdf)
 
 <use figures/fig_EER_Diagram.pdf>
@@ -451,35 +451,42 @@ LaTeX Warning: Reference `alg:name' on page 18 undefined on input line 85.
 Chapter 4.
 [19
 
-] <figures/fig_survey_chart.png, id=410, 1045.65656pt x 493.0922pt>
+] <figures/fig_survey_chart.png, id=412, 1045.65656pt x 493.0922pt>
 File: figures/fig_survey_chart.png Graphic file (type png)
 
 <use figures/fig_survey_chart.png>
 Package pdftex.def Info: figures/fig_survey_chart.png used on input line 14.
 (pdftex.def)             Requested size: 430.00627pt x 202.77855pt.
 
-<figures/fig_survey_form.png, id=411, 841.1425pt x 903.375pt>
+<figures/fig_survey_form.png, id=413, 841.1425pt x 903.375pt>
 File: figures/fig_survey_form.png Graphic file (type png)
 
 <use figures/fig_survey_form.png>
 Package pdftex.def Info: figures/fig_survey_form.png used on input line 21.
 (pdftex.def)             Requested size: 430.00627pt x 461.81792pt.
  [20 <./figures/fig_survey_chart.png>]
-[21 <./figures/fig_survey_form.png>]) (./chap6_Conclusion.tex [22]
-Chapter 5.
-) (./kkwon2-proposal.bbl [23
+[21 <./figures/fig_survey_form.png>]
+<figures/fig-panels.png, id=425, 1252.68pt x 382.42876pt>
+File: figures/fig-panels.png Graphic file (type png)
 
-] [24
+<use figures/fig-panels.png>
+Package pdftex.def Info: figures/fig-panels.png used on input line 38.
+(pdftex.def)             Requested size: 430.00627pt x 131.27283pt.
+) (./chap6_Conclusion.tex [22 <./figures/fig-panels.png>] [23]
+Chapter 5.
+) (./kkwon2-proposal.bbl [24
+
+] [25
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [25]
+ [26]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./kkwon2-proposal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `kkwon2-proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 88A5248BB8A229848728CF63A50EB083;1052.
+(rerunfilecheck)             Checksum: A8C36906045EF54B9282ECD7B31285AD;1045.
 
 
 LaTeX Warning: There were undefined references.
@@ -490,10 +497,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 5663 strings out of 493089
- 84589 string characters out of 6134842
- 168943 words of memory out of 5000000
- 8988 multiletter control sequences out of 15000+600000
+ 5671 strings out of 493089
+ 84739 string characters out of 6134842
+ 169016 words of memory out of 5000000
+ 8993 multiletter control sequences out of 15000+600000
  9016 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,6n,29p,1955b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -508,10 +515,10 @@ l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on kkwon2-proposal.pdf (33 pages, 1710658 bytes).
+Output written on kkwon2-proposal.pdf (34 pages, 1779951 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 378 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,7 +4,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Visualizing Publication Data}{6}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Visualizing Funding Data}{7}{subsection.2.1.2}
 \contentsline {chapter}{\numberline {3}Architecture}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}System Architecture}{12}{section.3.1}
+\contentsline {section}{\numberline {3.1}Architecture}{12}{section.3.1}
 \contentsline {section}{\numberline {3.2}Database Schema Diagrams}{14}{section.3.2}
 \contentsline {section}{\numberline {3.3}Name Disambiguation}{14}{section.3.3}
 \contentsline {section}{\numberline {3.4}Name Disambiguation - Details}{15}{section.3.4}
@@ -12,5 +12,5 @@
 \contentsline {chapter}{\numberline {4}Results}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}Usability Feedback}{19}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}User Feedback - Focus Group}{22}{subsection.4.1.1}
-\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.5}
-\contentsline {chapter}{Bibliography}{24}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.5}
+\contentsline {chapter}{Bibliography}{25}{chapter.5}
