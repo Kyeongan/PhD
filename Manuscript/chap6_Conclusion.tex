@@ -1,8 +1,29 @@
+% ==================================================
 \chapter{Conclusion}\label{chap:Conclusion}
+% ==================================================
+I described a visualization method that complements the information contained in a researcher's Google Scholar page and summarized by her/his {\it h}-index. I provided a visualization scheme which summarizes the current measures. It introduces a bias due to funding agencies in the United States. One can draw deeper conclusions that are not supported by the {\it h}-index alone and cannot be derived from the Curriculum Vitae or the Google Scholar page, unless a significant investigative effort is undertaken. The qualitative panels, statistical values like mean impact factor, temporal plots, and the tooltips provide useful insights. Our user study also supports this.
 
-I have described a visualization method that complements the information contained in a researcher's Google Scholar page and summarized by her/his {\it h}-index. One can draw insightful conclusions about the individual's scholastic accomplishments. These conclusions are not supported by the {\it h}-index alone and cannot be derived by the CV or the Google Scholar page, unless a significant investigative effort is undertaken. Our user study also supports this.
+Scholar Plot works at three levels - the individual, the department, and the college. The individual (base) level captures in a figure three key indicators of academic prowess: citation impact, the prestige of publication venues, and research funding. These indicators scale up in the department \& college (aggregate) levels of Scholar Plot as pie charts, revealing at a glance the relative contributions of entities from the lower echelon.
 
-This approach not only focusses on journal publications, conferences / books and patents but also NSF/NIH funding data. Scholar Plot is a simple, yet valuable visualization scheme. It is likely to have broad appeal not only because it would be useful to evaluation committees, but also because it is available online for free at \url{http://www.scholarplot.com}. 
+The basic idea behind Scholar Plot is to facilitate an instant deeper comprehension regarding different strengths of academic records, supporting the work of evaluation committees, and the curious academic in search of an advisor or department. One of Scholar Plot's strengths is that it draws data from open sources that are inclusive. However, it is a technical problem because Google Scholar - a key open source used by Scholar Plot - does not offer an application programming interface (API). For the base level of Scholar Plot, we solved this problem with sophisticated data scraping assisted by a simple one-time wiki function: if the individual sought by the user is not recognized by Scholar Plot, Scholar Plot asks the user to copy and paste the targeted individual's Google Scholar URL. Scholar Plot will remember it thereafter by automatically scraping the scholar's data every time a user requests it by name. For the department and college levels, a wiki function is also available to request the information of the departments at \url{https://goo.gl/RHsuJu}.
+
+Not only that, I described Academic Garden (AG), which is about individual academics, departments, colleges, and any other academic group visualization. Academic Garden uses the flower metaphor to visually articulate performance for academic entities. The width of the flower's stem is commensurate to the academic funding the entity received (`juice conduit'). The height of the flower's stem is commensurate to the impact of the entity's intellectual products (`visibility'). The diameter of the flower's disc is commensurate to the prestige of the venues where these products appeared (`fancy factor').
+
+For the validation of the design choices of Academic Garden, I used Endowed Chaired faculty as the ground truth. An Endowed Chair is considered as a prestigious award in the United States. The data analysis using faculty from the Computer Science and Biology departments of the top 10 schools in the United States indicates that chaired faculty can be predicted using the three merit criteria of citations, impact factor, and funding. Our scheme is exactly mirroring the visualization with quartiles values.
+
+The Scholar Plot and Academic Garden are likely to have a broad appeal because it is useful for evaluating committees, and it is available online for free at \url{http://www.scholarplot.com}.
+
+%I have described a visualization method that complements the information contained in a researcher's Google Scholar page and summarized by her/his {\it h}-index. One can draw insightful conclusions about the individual's scholastic accomplishments. These conclusions are not supported by the {\it h}-index alone and cannot be derived by the CV or the Google Scholar page, unless a significant investigative effort is undertaken. Our user study also supports this. This approach not only focusses on journal publications, conferences / books and patents but also NSF/NIH/NASA funding data. Scholar Plot is a simple, yet valuable visualization scheme. It is likely to have broad appeal not only because it would be useful to evaluation committees, but also because it is available online for free at \url{http://www.scholarplot.com}.
+
+
+%I presented Scholar Plot (SP), a scalable (individual-department-college) visualization interface for academic merit. I have released Scholar Plot at \href{http://scholarplot.com}{http://scholarplot.com} \cite{scholarplot}.
+
+
+
+%A focus group and a survey study indicated that the base level of SP is well received by academics. We plan to conduct a longitudinal study of SP users, to further inform the design cycle.
+
+% Academic Garden is available on the top of department plot and it illustrats 
+
 
 %\section{Summary of Contributions}
 %

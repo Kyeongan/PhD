@@ -1,0 +1,56 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces h-index from a plot of decreasing citations for numbered papers.}}{2}{figure.2.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces A code snippet of XMLStarlet.}}{7}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An example of a senior records of the $log_{10}$ view and $decimal$ view - the radio button allows users to switch between different scale views without reloading the entire page. The two different scales view to create a standardized scale for the y-axis for comparison, $log_{10}$ scale is the default plot and an option to toggle to the decimal scale view.}}{8}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces An example of a famous physicist - Google Scholar Profile (Top) Curriculum Vitae (Middle) Scholar Plot (Bottom). Scholar Plot includes all the publications with different colors and symbols, which distinguish the type of publication.}}{9}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The coauthor panel displays the author list.}}{10}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces An example of the tooltip: the publication title, the year, the number of citations, the venue where published, impact factor, the list of co-authors, the visual horizontal bars with the number of collaboration between the co-authors, and the selected scholar.}}{11}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The legend allows users to selectively view journals, conferences / books, and patents.}}{12}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Examples of y-axis projection for three different scholars.}}{13}{figure.3.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{13}{figure.3.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{13}{figure.3.7}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{13}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Examples of different scholarly profiles - Combination of journal and conference papers.}}{14}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Examples of different scholarly profiles - Preponderance of journal papers.}}{14}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Examples of different scholarly profiles - Combination of conference papers and patents.}}{15}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Histogram of Impact Factor Jounal.}}{16}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Disk shapes and quartile sizes.}}{16}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces An example of Scholar Plot - Visualizing Funding Data.}}{18}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Base level Scholar Plot (SP) example - a famous physicist and interdisciplinary scientist with dozens of articles in \emph {Nature}. The summary panels in the middle were added after a feedback from the focus group. Notice how this scholar's publication production exploded in sync with the commencement of substantial federal funding.}}{19}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Mean Departmental h-index - College of Natural Sciences and Mathematics at University of Houston.}}{21}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Home Run Citations, Mean Departmental Citations, and Citations Pie Chart (Total Citations and Normalized Citations) - College of Natural Sciences and Mathematics at University of Houston.}}{22}{figure.3.16}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Home Run Impact Factor, Mean Departmental Impact Factor, and Impact Factor Pie Chart - College of Natural Sciences and Mathematics at University of Houston.}}{23}{figure.3.17}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Funding Pie Chart - College of Natural Sciences and Mathematics at University of Houston.}}{24}{figure.3.18}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces hIndex - Department of Computer Science at University of Houston.}}{26}{figure.3.19}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Home Run Citations, Citations, and Citations Pie Chart (Total Citations, Normalized Citations) - Department of Computer Science at University of Houston - Citation.}}{27}{figure.3.20}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Home Run Impact Factor, Mean Impact Factor, and Impact Factor Pie Chart - Department of Computer Science at University of Houston - Impact Factor.}}{28}{figure.3.21}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Funding, Funding Pie Chart (NSF+NIH+NASA Funding, Normalized NSF+NIH+NASA Funding) - Department of Computer Science at University of Houston - Funding.}}{29}{figure.3.22}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Example of Group Compare between Departments of Computer Science at University of Houston and the University of Texas - Austin.}}{32}{figure.3.23}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces A wider stem means that a flower has the necessary support to grow. The width of each stem in the plot indicates the level of funding the scholar has received. A higher quartile of funding is represented by a wider stem and a darker green color. As a flower grows its stem heightens. The length of each stem in the plot represents a scholar's total number of citations.}}{39}{figure.3.24}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Academic Garden example of Global Scale - Computer and Information Science at Northeastern University.}}{40}{figure.3.25}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Academic Garden example of Local Scale - Computer and Information Science at Northeastern University.}}{41}{figure.3.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces System Architecture of Scholar Plot.}}{44}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of how the name disambiguation algorithm works.}}{47}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Example of matching the name in Google Profile with the name in funding data. Daniel M. Smith is considered as Daniel Michael Smith and Daniel Smith.}}{48}{figure.4.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Mean evaluation of Scholar Plot. A total of $n=15$ participants evaluated the survey.}}{50}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Panel listing the top collaborators with the selected scholar ranked by the count of the number of publications collaborated.}}{52}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Panel highlighting the top 5 cited papers of the selected scholar.}}{52}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Panel displaying the top journals ranked by the frequency of publication.}}{53}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Panel showing the top 5 journals where the selected scholar published ranked by the impact factor.}}{53}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Local Scale: Department of Computer Science at the University of Houston.}}{55}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Global Scale: Department of Computer Science at the University of Houston.}}{55}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Global Scale: Department of Computer Science at the MIT.}}{56}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Local Scale: Department of Computer Science at the MIT.}}{56}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Screenshot of a result of Linear Model in R.}}{59}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Screenshot of a result of Linear Model in R.}}{60}{figure.5.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Usage of Scholar Plot - Type the name of a scholar in the search box.}}{66}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Usage of Scholar Plot - No Results in Scholar Plot Search in Scholar Plot System.}}{66}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Usage of Scholar Plot - Searching a scholar profile in Google Scholar.}}{67}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Usage of Scholar Plot - Copying the Google Scholar Citations Profile URL.}}{68}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Usage of Scholar Plot - Pasting the Google Scholar Citations Profile URL.}}{69}{figure.7.5}

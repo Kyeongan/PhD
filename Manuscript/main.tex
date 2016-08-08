@@ -1,0 +1,884 @@
+% ==================================================
+  \chapter{Introduction}\label{chap:Intro}
+% ==================================================
+A curriculum vitae (CV) provides a synopsis of an individual's achievements. The CV content varies by profession. Academic CVs feature prominently a publication section. This section references the researcher's journal papers and other scholarly products.
+
+Search, promotion, and award committees that screen CVs go through lists of publications trying to form opinions about the candidates' records. Does candidate A or B have enough publications? Are they of high quality? Did they have any impact on the research community?
+In a highly competitive context, these questions do not always have clear answers. Another question that needs to be addressed is whether the candidate has been funded. If so, has the candidate done justice to the amount of funds obtained? This also enables one to decide if the candidate's output is in proportion with the input.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ==================================================
+\chapter{Background}\label{chap:Background}
+% ==================================================
+
+There has been some work on the quantification of academic careers, focused on a quest for a `number' that sums up an academic's scholarship. The most well-known outcome of this line of research is the {\it h}-index, proposed by Hirsch \cite{Hirsch:2005}. A scholar has an index of {\it h} if s/he has published {\it h} papers each of which has been cited in other papers at least {\it h} times (Figure \ref{fig-hindex}).
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=1\textwidth]{figures/H-index.png}
+    \caption{h-index from a plot of decreasing citations for numbered papers}~\label{fig-hindex}
+\end{figure*}
+
+
+The {\it h}-index depends on both the number of publications and the number of citations. Hirsch demonstrated that {\it h} can predict honors, such as National Academy membership and Nobel prize. He also suggested that it could predict advancement to tenure, although with some uncertainty.
+Despite its value, the {\it h}-index has weaknesses and when used, context should be carefully taken into account; such context includes the academic field and the academic age of the candidate \cite{Bornmann2}.
+
+With the advent of Google Scholar, information about a researcher's publication record and her/his {\it h}-index has become easily accessible. Then, with the ease of access of the internet, this information has become ubiquitous.
+
+In this dissertation I introduce data visualization methods that complement the publication information contained in a standard CV and summarized by the {\it h}-index. The tool produces a temporal visualization that connects the {\it h}-index with the paper citations and the journal impact factors along with the funding data.
+
+There have been other efforts in visualizing patterns of scientific production and impact \cite{Katy:2010, Chen:2001, Leydesdorff:2007}. Recently, a mobile app (DBIScholar) has also appeared that interfaces information from Google Scholar \cite{sabrina741}. A social tool named Scholarometer has been developed to facilitate citation analysis and to evaluate the impact of authors \cite{Kaur:2014}. This tool helps to visualize author and discipline networks. There is another tool called SciVal Expert to visualize the collaboration and research output of institutions \cite{Vardell:2011}. This tool uses data from Scopus. But these tools do not provide a visual picture of a single scholar's achievements.
+
+Our method and application differ from the prior art. Scholar Plot helps the reviewer determine at a glance from where the researcher's impact (if any) arises from.% : citations in articles published in low impact journals or citations in articles published in high impact journals.
+
+Even students need more information to decide about their college. Nowadays, a university has a ranking as well as each department with each college in that university. So students need publicly accessible information which is cheap and get a summary of various measures being used to evaluate faculty. Rankings are used to make choices to avoid risks of joining lower ranking colleges \cite{mcdonough1998college}.
+
+With the advent of Google Scholar, information about a researcher's publication record and her/his {\it h}-index has become easily accessible. Then, with the ease of access of the internet, this information has become ubiquitous.
+
+Our goal is to articulate a clear, comprehensive, and measurable performance evaluation scheme for academics. This scheme should reveal causal relationships among the merit criteria. We provide a summary interface to facilitate executive decisions. The tool produces a temporal visualization that connects the {\it h}-index with the paper citations and the journal impact factors along with the funding data. Scholar Plot helps the reviewer determine at a glance from where the researcher's impact (if any) arises from.
+
+In this article we introduce a data visualization tool that complements the publication information contained in a standard CV and summarized by the {\it h}-index.
+
+We introduce a data visualization tool that complements the US News Rankings and the publication information contained in a standard CV. Visualization facilitates access to data and supports actionable insights \cite{Yi:2008:UCI}. It also helps to bring out patterns and pattern violations in the underlying data.
+The tool produces a temporal visualization that connects the {\it h}-index with the paper citations and the impact factors along with the funding data. Our method and application differ from the prior art. Scholar Plot helps the reviewer determine at a glance from where the researcher's impact (if any) arises from. It also gives a hierarchical view of accomplishments from a single author to the department to the entire college.
+
+
+
+
+
+
+% ==================================================
+\chapter{Methods}\label{chap:Methods }
+% ==================================================
+
+In this section, I will explain various criteria for evaluating academic performance, individual visualization (Scholar Plot) and group visualization (Department Plot) and Academic Garden which is a scalable visualization of academic merit.
+
+
+% --------------------------
+\section{Design Process}
+% --------------------------
+There are various criteria for evaluating academic performance. We focus on three main criteria.
+\begin{itemize}
+\item \textbf{Impact} - it is the post-production merit. For example, the citations which a publication receives. A publication with higher number of citations has higher visibility. Therefore, we linked the impact to the vertical axis in the plot.
+\item \textbf{Prestige} - this is the pre-production merit associated with the venue of publication. For example, the impact factor of a journal is the merit your publication will acquire because it has been published in that journal. Hence we associate a disk with variable sizes to the prestige of the venue. We consider it as a `fancy factor`.
+\item \textbf{Funding} - it enables the production of publications/research. Hence we place it at the bottom of the plot. This can help to correlate the production with the funding.
+\end{itemize}
+
+ScholarPlot uses publicly available publication and affiliation information on researchers, scholars, and authors for the purpose of visualizing popular indicators of publishing activity. No single set of indicators can capture all the dimensions of a publication's scholarly value or an author's contributions to knowledge. Depending on a user's objective, ScholarPlot maybe best used in combination with other measures. Our visualization consists of a hierarchy of visualization schemes right from the individual to the department and the college.
+
+
+
+
+
+
+
+
+
+% =============================================================================
+\section{Scholar Plot - Individual Visualization}
+% =============================================================================
+Scholar Plot obtains the Impact Factor ($IF$) for a particular journal from our database. The data of Impact Factor is acquired from The Thomson Reuters Impact Factor - Web of Science. Based on all this information it constructs the plots as per the design outlined in the Visualization and User Interface section, using nvd3 library \cite{nvd3org}.
+
+
+The NSF/NIH/NASA funding datasets are available at the respective US government websites in various file formats such as XML, CSV and so on \cite{nsf, nih}. We implemented a script to parse this massive XML dataset into our data structure that consists of AwardID, AwardAmount, First name, Last name, Investigator by RoleCode (Principal Investigator, Co-Principal Investigator and Former Principal Investigator), using XMLStarlet \cite{XMLStarlet}. We imported this data to our database using Toad DBMS tool. %We designed our relational database schema in MySQL.
+
+\begin{figure}%[!htb]
+\centering
+  \includegraphics[width=1\textwidth]{figures/fig_scaleView}
+  \caption{The $log_{10}$ view and $decimal$ view: The radio button allows to switch between different scale views without reloading the entire page.}~\label{fig-scale}
+\end{figure}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/fig_publication}
+  \caption{An example of Scholar Plot - Visualizing Publication Data}~\label{fig-publication}
+ % \vspace{-1ex}
+\end{figure*}
+
+% \begin{figure*}
+%   \centering
+%   \includegraphics[width=1\textwidth]{figures/fig_cv_google_scholarplot}
+%   \caption{An example of Scholar Plot - Visualizing Publication Data}~\label{fig-publication}
+%  % \vspace{-1ex}
+% \end{figure*}
+
+Scholar Plot depicts the publications of an individual as a scatter plot and the NSF/NIH/NASA funding as a multiline plot. The publications are represented in a 2D diagram (number of citations vs. year of publication) with the {\it h}-index line (Figure \ref{fig-publication}). The horizontal axis is time, starting with the year of the researcher's first publication ending with the current year. The vertical axis is the number of citations. The default plot is in $log_{10}$ scale. The user can also view the plot in the decimal scale by a toggle option using a radio button at the top left corner (Figure \ref{fig-scale}). The log scale provides a standardized scale which helps to compare the plots of multiple scholars.
+
+
+
+% --------------------------
+\subsection{Publication Data}
+% --------------------------
+Each publication $i$ is represented with a symbol. The center of the symbol has coordinates $(i_{PY}, i_{C})$, where $PY$ stands for Publication Year and $C$ for Number of citations obtained by the publication till date. The journals are represented as circles (orange) with area analogous to the impact factor the journal. The conferences / books are represented as triangles (green) and the patents as crosses (blue). By clicking at a symbol you can obtain the publication title, the year, the number of citations, the venue where published and its impact factor (if it is a journal), as well as a breakdown in the authorship, complete with the level of collaboration between the co-authors and the selected scholar (Figure \ref{fig-tooltip}). The publication title also enables the user to navigate to the Google Scholar page for the selected paper. This helps to quickly verify and obtain further details of the selected publication. It makes user reach out to the PDF file directly if available. To enhance user experience, we customized the tooltip to give detailed information without overlapping the plots.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=1\textwidth]{figures/fig_tooltip}
+  \caption{An example of the tooltip: The publication title, the year, the number of citations, the venue where published, impact factor, the list of co-authors, the visual horizontal bars with the number of collaboration between the co-authors and the selected scholar.}~\label{fig-tooltip}
+ % \vspace{-1ex}
+\end{figure}
+
+A dotted horizontal line on the plot denote the {\it h}-index of the scholar. We also denote those publications which earn greater than 10,000 citations with diamonds as they represent the great success in publications (Figure \ref{fig-publication}). The title of the plot contains the name of the scholar and her/his total number of citations along with the {\it h}-index. At the top right corner of the plot, a legend shows the three different types of publications we distinctly display (Figure \ref{fig-legend}).
+
+\begin{figure}[!htb]
+\centering
+  \includegraphics[width=1\textwidth]{figures/fig_legend-toggle}
+  \caption{The legend allows users to selectively view journals, conferences / books and patents.}~\label{fig-legend}
+ % \vspace{-1ex}
+\end{figure}
+
+
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=1\textwidth]{figures/fig-panel-coauthros.png}
+    \caption{The coauthor panel displays the author list.}~\label{fig-coauthors}
+\end{figure*}
+
+
+
+
+You can bring the journals, patents, and conferences / books in and out of the view by clicking at the respective legend. If there is an overlap between journals, conferences and patents, this feature can help the user to selectively view them. The user can also zoom into the plot for closer picture. Also note that the symbols are not completely opaque. So if there are multiple symbols which overlap, the user can see and interact with them by hovering the mouse over them appropriately.
+
+% --------------------------
+\subsection{Funding Data}
+% --------------------------
+Scholar Plot also depicts the NSF/NIH/NASA funding of an individual as a multiline (Figure \ref{fig:funding}). Each breakpoint in the multiline corresponds to the individual's total amount in all NSF/NIH/NASA awards for the specific year. By pointing at a breakpoint you can obtain the NSF/NIH/NASA awards IDs, award amounts, and investigator's role. The total annual funding information per year is also available by clicking the legend.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=1\textwidth]{figures/fig_funding_default}
+  \includegraphics[width=1\textwidth]{figures/fig_funding_total}
+  \caption{An example of Scholar Plot - Visualizing Funding Data}~\label{fig:funding}
+  % \vspace{-2ex}
+\end{figure}
+
+
+
+
+
+
+% --------------------------
+\section{Department Plot - Group Visualization}
+% --------------------------
+The group level of Scholar Plot visualizes department/college academic records. The issue we had to address was to determine how to scale the individual visualization to the group level. Group plot consists of 2 aspects - plot at the department level and at the college level. We apply our design philosophy at the group level. We use pie charts and bar charts (Figure \ref{fig:groupplot}) to display the information in a compact manner. Pie charts are also useful to show proportion of contribution of each individual to the group (i.e. department). For the pie-charts, we display the top 5 scholars to avoid over crowding the pie chart (Figure \ref{fig:Group-Cit}).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{figures/fig-CS-hIndex}
+  \caption{Example of bar chart by h-index.}~\label{fig:groupplot}
+\end{figure}
+
+% --------------------------
+\subsection{Department Plot}
+% --------------------------
+
+Departmental Plot is an attempt to visualize aspects of tenured and tenure-track faculty contributions to their home departments. These aspects are not only intellectual contributions and perhaps not even the most important. The faculty are compared based on publicly available measures like h-index, citations and impact factor. We show a citation contribution pie chart normalized by the number of years in which a scholar spent in academia. We also portray charts depicting the highest (Home Run) cited paper and the highest (Home Run) impact factor journal where the scholar published.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Coll-h}
+  \caption{An example of departmnet plot - Colleg of Natural Science and Mathmatics at University of Houston - hIndex}~\label{fig:DP-College1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Coll-Cit}
+  \caption{An example of departmnet plot - Colleg of Natural Science and Mathmatics at University of Houston - Citation}~\label{fig:DP-College1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Coll-IF}
+  \caption{An example of departmnet plot - Colleg of Natural Science and Mathmatics at University of Houston - Impact Factor}~\label{fig:DP-College1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Coll-Fund}
+  \caption{An example of departmnet plot - Colleg of Natural Science and Mathmatics at University of Houston - Funding}~\label{fig:DP-College1}
+\end{figure*}
+
+
+
+% --------------------------
+\subsection{College Plot}
+% --------------------------
+
+College plot attempts to visualize the contributions of the departments to the home college. College plot pictures the mean values of various measures described above for each department. We use pie charts (Figure \ref{fig:Group-Cit}) and bar charts like in the department plot. Note that the data for department and college plot is generated using a query to our database. We are working on adding more universities to this database.
+
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Dept-h}
+  \caption{An example of departmnet plot - Department of Computer Science at University of Houston - hIndex}~\label{fig:DP-College1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Dept-Cit}
+  \caption{An example of departmnet plot - Department of Computer Science at University of Houston - Citation}~\label{fig:DP-College1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Dept-IF}
+  \caption{An example of departmnet plot - Department of Computer Science at University of Houston - Impact Factor}~\label{fig:DP-College1}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Dept-Fund}
+  \caption{An example of departmnet plot - Department of Computer Science at University of Houston - Funding}~\label{fig:DP-College1}
+\end{figure*}
+
+
+
+
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/fig-Group-Citation}
+  \caption{Example of Citations Pie Chart. The ones on left are at the Department Level, the ones on right are at the College Level. The charts depict total citations and normalized citations.}~\label{fig:Group-Cit}
+\end{figure*}
+
+
+
+
+
+Department Compare compares consists of comparison at the Department level. Department Compare aims to assist people to have a deeper understanding into the inner accomplishments in the departments. It complements the ranking given to the department by the US News Report. We compare the departments with the same publicly available measures. First, we compare the summary statistics like the mean values. We use boxplots to compare the distribution of values of the individual faculty in each department. We are working on extending this feature to the college level and making the user interface much more interactive.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/fig-GroupCompare}
+  \caption{Example of Group Compare between Departments of Computer Science at University of Houston and the University of Texas - Austin.}~\label{fig:groupcompare}
+\end{figure*}
+
+
+
+
+%% --------------------------
+\subsection{Disk Size - How to determine the size of disks}
+%% --------------------------
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=1\textwidth]{figures/fig-Histogram-IF}
+  \caption{Histogram of Impact Factor Jounal}~\label{fig:Histogram-IF}
+\end{figure}
+
+I wanted to plot to visualize more efficiently with different size of disk for Journal publications that tells the different ranking of Journal by Impact Factor Index. To do this, we analyzed the data set of JCR 2015 IF and run quartile function as a useful concept in statistics to determine the size of disks in Scholar Plot. Based on this number, the system will decide the size of plot of each journal data and plot it in real-time. The quartile values are shown in Figure \ref{fig:Histogram-IF}. The maximum number from descriptive is 153.459 through.
+
+
+
+
+
+%Scholar Plot gives a snapshot of the individuals profile in a concise manner.
+To place the plots in your personal CV or on your web page we provide a download button at the top right corner of the plot (Figure \ref{fig-scale}). This function enables the user to download plots in a zip file. It includes high resolution vector images in SVG (Scalable Vector Graphics) format of the publication and funding plots.
+
+Scholar Plot also has a projection of the data on the y-axis depicted by small horizontal colored lines. For example, we can clearly see that journals contribute to the {\it h}-index of scholar in Figure \ref{fig:distribution} (a) and conferences / books contribute to the {\it h}-index of scholar in Figure \ref{fig:distribution} (b). We can clearly infer the scholar in Figure \ref{fig:distribution} (c)) has many patents. We can also infer the number of publications within a particular range of citations based on the density of the projected lines.
+
+\begin{figure}[!htb]
+\centering
+\subfigure[]{%
+\includegraphics[width=0.23\textwidth]{figures/fig_distribution_A}
+}
+\subfigure[]{%
+\includegraphics[width=0.23\textwidth]{figures/fig_distribution_B}
+}
+\subfigure[]{%
+\includegraphics[width=0.23\textwidth]{figures/fig_distribution_C}
+}
+\caption{Examples of y-axis projection for three different scholars.}~\label{fig:distribution}
+  %\vspace{-1ex}
+\end{figure}
+
+%\begin{figure}[!htb]
+%  \centering
+%  \includegraphics[width=0.2\textwidth]{figures/fig_distribution_A}
+%  \includegraphics[width=0.2\textwidth]{figures/fig_distribution_B}
+%  \includegraphics[width=0.2\textwidth]{figures/fig_distribution_C}
+%  \caption{Example with journals, conferences, and patents contributing to h-index}~\label{fig:distribution}
+%\end{figure}
+
+We improve user experience to enable users to quickly find and select from a pre-populated list of scholar names as they type. For each character the user enters, we display similar matching names on the dropdown list. Even entering the space (`` "), we display the 10 most recently inserted scholar's names. Scholar Plot follows the approach of responsive web design to provide optimal viewing based on the size of screen.
+
+
+
+
+
+There are various criteria for evaluating academic performance. We focus on three main criteria. 
+\begin{itemize}
+\item \textbf{Impact} - it is the post-production merit. For example, the citations which a publication receives. A publication with higher number of citations has higher visibility. Therefore, we linked the impact to the vertical axis in the plot.
+\item \textbf{Prestige} - this is the pre-production merit associated with the venue of publication. For example, the impact factor of a journal is the merit your publication will acquire because it has been published in that journal. Hence we associate a disk with variable sizes to the prestige of the venue. We consider it as a 'fancy factor'.
+\item \textbf{Funding} - it enables the production of publications/research. Hence we place it at the bottom of the plot. This can help to correlate the production with the funding.
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ==================================================
+  % \chapter{Academic Garden}\label{chap:Academic Garden}
+% ==================================================
+% ------------------------------------------------------------------
+\section {Academic Garden - Scable Visualizatoin}
+% ------------------------------------------------------------------
+Academic Garden (AG) is a scalable visualization of academic merit. It applies to individual academics, departments, colleges, and any other academic group thereof, such as a research lab or a project team. Reminiscent of the legal views for physical personhood and corporate personhood, we consider that individual academics and academic groups share behavioral characteristics. Specifically, we argue that academic performance has three pillars that are scale invariant: (a) funding that enables intellectual production; (b) prestige of the venues where intellectual products appear; and, (c) impact of the intellectual products. In the case of groups, these three variables are expressed as statistics of the corresponding individual measurements.
+
+AG uses the flower metaphor to visually articulate performance for academic entities. The width of the flower's stem is commensurate to the academic funding this entity received (`juice conduit`). The height of the flower's stem is commensurate to the impact of the entity's intellectual products (`visibility`). The diameter of the flower's disc is commensurate to the prestige of the venues where these products appeared (`fancy factor`). As secondary characteristics, the number of petal colors is commensurate to the multi-disciplinarily of the entity's intellectual production with the bud vs. bloom appearance denotes the academic entity's age.
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=1\textwidth]{figures/fig-Eugene-with-menu}
+    \caption{Base level Scholar Plot (SP) example - a famous physicist and interdisciplinary scientist with dozen of articles in \emph{Nature}. The summary panels in the middle were added after feedback from the focus group. Notice how this scholar's publication production exploded in sync with the commencement of substantial federal funding.}~\label{fig-publication} 
+\end{figure*} 
+
+% ------------------------------------------------------------------
+\subsection {Research Funding: Enabler of Production}
+% ------------------------------------------------------------------
+Research funding is an enabler of academic production. Very few things can be done in the absence of funding in science and engineering. Even in humanities, some funding is needed in many cases (e.g., travel support for archival research).  Research funding is dispensed through peer-reviewed proposal competitions, and for this reason it is not only an enabler but also has inherent merit. As different disciplines need different levels of funding some normalization is in order. This normalization can be any statistic. We prefer the quartile where the funding level of the academic entity's record belongs with respect to `all the records in the specific discipline. `All here is commensurate to the selected reference, whether this is a university department or a set of departments across the United States.  Needless to say that the original funding records need to be adjusted, taking into account the entity's age (if the entity is a physical person) or the number of individuals participating in the entity's personhood (if the entity is a group).
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-Eugene-with-menu}
+%     \caption{Base level Scholar Plot (SP) example - a famous physicist and interdisciplinary scientist with dozen of articles in \emph{Nature}. The summary panels in the middle were added after feedback from the focus group. Notice how this scholar's publication production exploded in sync with the commencement of substantial federal funding.}~\label{fig-publication} 
+% \end{figure*} 
+
+% ------------------------------------------------------------------
+\subsection {Prestige of Product Venue: Pre-production Achievement}
+% ------------------------------------------------------------------
+Funded (and unfunded) research typically results into intellectual products. These are typically journal papers, conference proceedings papers, or books. Occasionally, intellectual products include patents or software packages, such as smartphone applications. Almost all intellectual products undergo review process, and the ones successfully passing this review process have inherent merit.  The review process criteria are not uniform. Moreover, publishing in different venues is associated with various degrees of difficulty. In journals, this difficulty is largely associated with the journal's impact factor (IF), as determined by Thomson Reuters - the higher the IF, the more difficult is to publish in a journal, and the more valuable and prestigious a potential acceptance. For refereed conferences, the prestige is loosely associated with the venue's acceptance rate - the lower the acceptance rate, the more difficult is to get into the conference proceedings, and the more prestigious the accomplishment. Unfortunately, there is no universally accepted ranking list for conferences, as is the case of the Thomson Reuters IF list for journals. Hence, it is not opportune to assign a numeric score to conference publications. The same applies for books, where evaluations are even more qualitative, and based on opinions about the perceived prestige of the publishing house. And, we are totally agnostic regarding pre-production credit, when it comes to patents and software products.
+
+As a result, for the moment we use only IF to measure pre-production achievement. Based on histogram analysis of the frequency of publications in the IF list of journals, we use four classes to group prestige. Different grouping may be adopted, however, depending on the analytics used.
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-Eugene-with-menu}
+%     \caption{Base level Scholar Plot (SP) example - a famous physicist and interdisciplinary scientist with dozen of articles in \emph{Nature}. The summary panels in the middle were added after feedback from the focus group. Notice how this scholar's publication production exploded in sync with the commencement of substantial federal funding.}~\label{fig-publication} 
+% \end{figure*} 
+
+% ------------------------------------------------------------------
+\subsection {Product Impact: Post-production Achievement}
+% ------------------------------------------------------------------
+Once a paper appears in a journal or conference proceedings, or a book appears in the market, it gets noticed and depending on how useful researchers find the concept or method contained therein, they may start using it, citing its source in their own intellectual products. This practice constitutes impact, which is a sought-after outcome of the research process as the building block of scientific advances. There are several ways of measuring impact, but the most widely accepted is the citation count.
+As different disciplines have different population sizes and publication practices, which may affect citation numbers, normalization is in order. This normalization can be any statistic. We prefer the quartile where the citation count of the academic entity's record belongs with respect to `all the records in the specific discipline.  `All? here is commensurate to the selected reference, whether this is a university department or a set of departments across the United States. Needless to say that the original citation records need to be adjusted, taking into account the entity's age (if the entity is a physical person) or the number of individuals participating in the entity's personhood (if the entity is a group).
+
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=1\textwidth]{figures/fig-AG-global.png}
+    \caption{Academic Garden example of Global Scale - Computer and Information Science at Northeastern University.}~\label{fig-AG-global}
+\end{figure*}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=1\textwidth]{figures/fig-AG-local.png}
+    \caption{Academic Garden example of Local Scale - Computer and Information Science at Northeastern University}~\label{fig-AG-global}
+\end{figure*}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{figures/fig-flower.png}
+    \caption{Academic Garden Flower Diagram: A wider stem means that a flower has the necessary support to grow. The width of each stem in the plot indicates the level of funding the scholar has received. A higher quartile of funding is repesented by a wider stem and a darker green color. As a flower grows its stem heightens. The length of each stem in the plot represents a scholar's total number of citations. A flower that is flourishing produces large, colorful petals. The petals of the flowers in the plot are rendered as large brightly-colored circles. Each quartile of journal impact factor is represented by a different color, and, the higher the quartile, the larger the radius}~\label{fig-flower-diagram}
+\end{figure}
+
+
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-code1.png}
+%     \caption{snippet}~\label{fig-publication}
+% \end{figure*}
+
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-dept-searchbox.png}
+%     \caption{snippet}~\label{fig-publication}
+% \end{figure*}
+
+
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-AG-draft-0.png}
+%     \caption{snippet}~\label{fig-publication}
+% \end{figure*}
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-AG-draft-1.png}
+%     \caption{snippet}~\label{fig-publication}
+% \end{figure*}
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-AG-draft-2.png}
+%     \caption{snippet}~\label{fig-publication}
+% \end{figure*}
+
+% \begin{figure*}
+%     \centering
+%     \includegraphics[width=1\textwidth]{figures/fig-AG-draft-3.png}
+%     \caption{snippet}~\label{fig-publication}
+% \end{figure*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% ==================================================
+\chapter{Software Engineering}\label{chap:Software Engineering}
+% ==================================================
+
+% --------------------------
+\section{Data Sources}
+% --------------------------
+There were several options to get bibliographic data for powering the publication plot of Scholar Plot (SP). These included \href{http://www.scopus.com/}{Scopus}, \href{http://www.isiknowledge.com/}{ISI Web of Knowledge}, and \href{http://scholar.google.com}{Google Scholar}. We chose Google Scholar for two reasons: a) it is all inclusive, covering all types of publications, that is, journals, conferences, books, and patents; and, b) it is freely available. Scopus is subscription based and not as inclusive as Google Scholar. ORCID has publications and funding data but requires extensive set-up.
+
+Our choice carries a few challenges, too. Google Scholar does not provide an application programming interface. Hence, we had to develop elaborate software to scrape information off publicly available Google Scholar pages. Also, not every academic has a Google Scholar page. This has been changing fast, however, as one college after the other in the United States mandating their faculty to maintain a Google Scholar page.
+
+We use the Journal IF List issued every year by Thompson Reuters to assign disk sizes to journal publications.
+
+For funding records, we use the publicly available grant records from the National Science Foundation (NSF) \cite{nsf}, the National Institutes of Health (NIH) \cite{nih}, and the National Aeronautics and Space Administration (NASA) \cite{nasa}. These are the only funding agencies with publicly available datasets at this point.
+
+11,867 records in our database.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||}
+ \hline
+ Agencies & Fiscal Year & Rows & Per Year \\ [1ex]
+ \hline\hline
+ NSF & FY 1985 - FY 2013 & 312,311 rows & 10,769/year \\
+ NIH & FY 2000 - FY 2013 & 777,657 rows & 55,456/year \\
+ NASA & FY 2007 - FY 2015 & 16,670 rows & 1,852/year \\ [1ex]
+ \hline
+\end{tabular}
+\caption{Funding datasets in Scholar Plot system.}
+\label{table:1}
+\end{table}
+
+
+
+
+
+
+
+
+
+% --------------------------
+\section{System Architecture}
+% --------------------------
+
+
+Scholar Plot is the web-based data visualization mothod that uses HTML5, CSS3 and SVG to render a scholar's accomplishment at a glance. We created a MySQL database to store the mapping between the scholar names and their Google Scholar IDs. We also designed and created database tables for NSF/NIH/NASA funding data. The user can search the name of the scholar in a text field. When the user starts to enter the name of the scholar, the names in our database which are similar to the entered name will be listed as a drop down list. We use jQuery and Ajax (asynchronous JavaScript and XML) method to have this feature, which connects to the database to get the list of names. If there are no matching/similar names, the user can also insert her/his Google Scholar ID to the database by one click event.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=1\textwidth]{figures/fig_system_architecture.pdf}
+  \caption{System Architecture of Scholar Plot.}~\label{fig-arch}
+%\vspace{-1ex}
+\end{figure}
+
+Once the scholar's name selected, the user can run the application to see the visual results of the selected scholar's publications and fundings. Scholar Plot connects to the Web server to retrieve the necessary information.
+The server-side application is implemented in PHP scripting language and MySQL. The HTTP protocol is used for communicating between client-side and server-side to get the basic information via JSON format (JavaScript Object Notation) and JSONP function (Figure \ref{fig-arch}). Scholar Plot also uses htmlSQL library to parse Google Scholar's page to extract user basic information \cite{htmlSQL}.
+
+%, collecting for the publication title, the journal name, the co-authors' name, the year, and the citations. It also collects the {\it h-}index and the number of total citations from the top of the scholar's page up to 300 publications.
+
+Scholar Plot obtains the Impact Factor ($IF$) for a particular journal from our database. The data of Impact Factor is acquired from The Thomson Reuters Impact Factor - Web of Science. Based on all this information it constructs the plots as per the design outlined in the Visualization and User Interface section, using nvd3 library \cite{nvd3org}.
+
+The NSF/NIH/NASA funding datasets are available at the respective US government websites in various file formats such as XML, CSV and so on \cite{nsf, nih, nasa}. We implemented a script to parse this massive XML dataset into our data structure that consists of AwardID, AwardAmount, First name, Last name, Investigator by RoleCode (Principal Investigator, Co-Principal Investigator and Former Principal Investigator), using XMLStarlet \cite{XMLStarlet}. We imported this data to our database using Toad DBMS tool. Currently, we have only these three funding data sources. So this is a limitation of the current system. It is biased to the scholar's country of residence. We are working on adding more of them to our database. %We designed our relational database schema in MySQL.
+
+
+
+
+% ==================================================
+% \chapter{Algorithms}\label{chap:Algorithms}
+% ==================================================
+% --------------------------
+\section{Name Disambiguation}
+% --------------------------
+
+
+With the amount of data and data sources rapidly growing and expanding, it is essential for the large amounts of available data to be organized for analysis. Through the process known as Data Wrangling, unorganized and scattered data can be prepared for easy access and analysis. The datasets of google and goverment funding have to be cleaned because it contains many non-english characters and its messy datasets \ref{kang2008interactive}. We use regular expression to remove the invalid special characters and translate phonetic characters to english alphabets. We designed and implemented Algorithms \ref{algorithm} to match the author names in Google Scholar with those in NSF/NIH/NASA data. This process helps to improve the quality of results.
+
+
+\subsection{Within the Google Scholar profile}
+
+A single Google Scholar profile might contain multiple variations of the authors name based on the middle name and initials. For example, consider the example Google Scholar profile of Ioannis Pavlidis. It contains four variations of his name in different publications.
+
+\begin{itemize}
+\item Ioannis T Pavlids
+\item IT Pavlids
+\item I Pavlids
+\item Ioannis Pavlids
+\end{itemize}
+
+We use the first initial and last name of an author to obtain the count of the number of publications in the panel.
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[width=.9\textwidth]{figures/fig-name-dis-example1}
+\caption{Example of how the name disambiguation algorithm works.}
+\label{default}
+\end{center}
+\end{figure}
+
+
+
+
+% --------------------------
+\subsection{Between Google Scholar and Funding datasets}
+% --------------------------
+
+The funding datasets released from governments need to be cleaned because their different data formats and structure. We cleaned the names by removing Jr., III, PhD, Dr., and so on. Then we need to match the names in the Google Scholar profile with those in the funding datasets. The algorithm is given in Algorithm \ref{algorithm}. An example is visually depicted in Figure \ref{alg-example}.
+
+\begin{figure}
+\begin{algorithm}[H]
+\caption{Matching the name between Google Scholar and funding datasets}
+\begin{algorithmic}[1]
+\Procedure{Searching for Author Name}{}
+\State $\textit{googleFirstName} \gets \text{first name in Google Scholar }$
+\State $\textit{googleLastName} \gets \text{last name in Google Scholar }$
+\State $\textit{googleMiddleInitial} \gets \text{middle initial in Google Scholar }$
+\If {$lastNameInFundingData = googleLastName$}
+\If {$firstNameInFundingData = googleFirstName$} 
+\If {$googleMiddleInitial$ is null } 
+{\Return true}
+\Else{
+\text{Search for} ($middleInitial, googleFirstName$) and ($googleFirstName, middleInitial$) 
+\If { $found$} \Return true
+\Else{ \Return false}
+\EndIf
+}
+\EndIf
+\EndIf
+\EndIf
+\Return false
+\EndProcedure
+\label{algorithm}
+\end{algorithmic}
+\end{algorithm}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\begin{center}
+  \includegraphics[width=.9\textwidth]{figures/fig-name-dis-example2}
+\caption{Example of matching the name in Google Profile with the name in funding data. Daniel M. Smith is considered as Daniel Michael Smith and Daniel Smith.}
+\label{alg-example}
+\end{center}
+\end{figure}
+
+
+
+
+% --------------------------
+\subsection{Within and across profile author name disambiguation}
+% --------------------------
+
+Let $i$ be an index for the Google scholar profile researchers. Within each collaboration profile of $i$,  there are a set of $K_{0}$ raw name strings that you have extracted,  $Names_{k}$ indexed by $k_{i}$. We will use the fact that these strings are associated with profile $i$ in the process of name disambiguation across Google Scholar profiles. The following provides an outline of this procedure: \\
+
+
+A) {\bf Clean last names:}
+Remove strings at end of all $Names_{k}$ that are not last names, and which may not consistently be listed for $k$, e.g. ``Jr.'', ``III'' etc. Hence, each name string  $Name_{k}$ consists ideally of a First name string $FN_{k}$, a Last name string $LN_{k}$, and possibly a Middle name string $MN_{k}$. \\
+
+B)  {\bf Clean middle initial strings within each profile $i$:}  Within each $i$, search for inconsistencies in the use of $MN_{k}$. That is, possibly sometimes the author $k$ is listed as {\it Alexander M Petersen}, sometimes {\it Alexander Petersen}, and sometimes {\it Alexander Michael Petersen}. In this example the Last name string $LN_{k} = Petersen$ and the First name string $FN_{k} = Alexander$ are clearly consistent. But the Middle name string \{$\_$ , M, Michael\} causes some ambiguity if simple string comparison is used,  where $\_$ is a whitespace.
+
+%Hence, for each distinct  surname $FN_{k}$ and last name $LN_{k}$, map all $MN_{k}$ strings to the simplest representation $\hat X$ of just the middle name initials.\\
+
+Then check to see how many different types of {\it Alexander} $\hat X$ {\it Petersen} occur within each $k$, where $\hat X$ is refers to the middle name. Use the following rules for when there are 2 or more types of $\hat W \hat X Petersen$.
+
+ \begin{itemize}
+ \item If there are only two  types of $Alexander \hat X Petersen$, with $\hat X=$ $\_$ or $M$, then map all of the $Alexander \hat X Petersen$ to $Alexander M Petersen$ for this $i$
+ \item If there are only three types of $Alexander \hat X Petersen$, with $\hat X=$ starting with the same initial, $M\_$ or $M$, then map all of the $A\hat X Petersen$ to $Alexander Michael Petersen$ for this $i$
+ \item If there are two or more types of $Alexander \hat X Petersen$, say $\hat X=O$ and $\hat X=P$, then keep these $X$ as they are.
+
+%  \item However, if one of those types are a whitespace,  say $\hat X=O$ and $\hat X=P$  and $X= \_$, then we cannot know if the latter possibly corresponds to $O$ or $P$. This case shouldn't occur often. So we can use the simple heuristic that if there is any paper with $AO$ and $A$, then in this case the latter is actually $AP$, and so all $A\_$ are mapped to $AP$. If there are no papers that make obvious this distinction,  then compare the coauthors of $AO$ and $AP$  and $A \_$ within the profile of $i$. Map $A \_$ to $AP$ if they share more coauthors or map $A \_$ to $AP$ if they share more coauthors using the Jaccard Similarity measure to compare.
+\end{itemize}
+
+C)  {\bf Disambiguate coauthors $k$ across the Google Scholar profiles (connecting $i$):} Let  $k$ and $k'$ be coauthors in profiles $i$ and $i'$, respectively.   In this step we would like to identify $k$ and $k'$ that are likely the same person, $k=k'$, allowing us to connect the two profiles $i$ and $i'$ within the coauthor network.\\
+
+ If $k$ and $k'$ have the same initials and same surname, then there is a possibility that they are the same individual. Also, if their full first name strings match, this is clearly very positive evidence of this. Let $A_{k,j}$ be the entire combination of First Name and Middle initial $FM_{k,j}$ with the surname $L_{k,j}$ (e.g. {\it Adam B Smith}, or {\it Adam \_ Johnson}) of the coauthor $j$ of the coauthor $k$.
+
+ \begin{itemize}
+ \item If the full first name strings and the full last name strings are the same, $FN_{k,j}$=$FN_{k',j}$ and $LN_{k,j} = LN_{k',j}$ (e.g. Adam J. Johnson and Adam Johnson), and they both have at least one coauthors in common,  then they are considered the same coauthor.
+ \item If we don't have the added information of their full first names then we must rely more heavily on the information from their coauthors. If the first and last names are the same, $FM_{k,j}=FM_{k',j}$ and $LM_{k,j}=LM_{k',j}$, and there are more than 2 middle names with one of the middle name being empty, we do the following -
+
+ We compute the number of coauthors in common of the empty middle name author with non-empty middle name authors by comparing the sets of coauthors, $\{j\}$.% and $\{j'\}$.
+
+ We assign the empty middle name to that middle name for which there are more number of co-authors in common.
+
+ \item If the first name of the author has a hyphen, we check for any other author having the same last name and the first name as the first word of the hyphenated word and middle name starting with the first letter of the second part of the hyphenated word. If any such pair of authors have at least one author in common, we update the first and middle name of the author with the hyphenated middle name to first name and middle name of the matched author.
+
+
+\item If the first name of the author has only two letters, we check for any other author having the same last name and the first name starting with the first letter of the first name and middle name starting with the second letter of the first name. If any such pair of authors have at least one author in common, we update the first and middle names of the author with two letters to first and middle names of the matched author.
+
+\end{itemize}
+Google Scholar data has to be cleaned because it contains many non-english characters. We use regular expression to remove the invalid special characters and translate phonetic characters to english alphabets. We designed and implemented Algorithm \ref{alg:name} to match the author names in Google Scholar with those in NSF/NIH/NASA data. This process helps to improve the quality of results.
+
+
+
+
+
+
+
+% ==================================================
+\chapter{Results}\label{chap:Results}
+% ==================================================
+
+% --------------------------
+\section{User Feedback - Usability Study}
+% --------------------------
+
+
+
+A total of 15 participants from various disciplines including Natural Sciences, Social Sciences, Life Sciences and Computer Science evaluated Scholar Plot. We asked each participant to review the interface and then complete an online survey. Special care was taken to ensure that the participants had correct understanding about the visualization component before they began rating. The participants answered the questions on a Likert scale from 1 to 5 with 1 being strongly disagree and 5 being strongly agree.
+
+Figure \ref{fig:UserStudy} illustrates the mean evaluation for each visualization component. Accuracy, Usability and understandability of Scholar Plot scored the highest $(\mu = 4.2)$ as it is very intuitive and can be used with minimal assistance. Many participants gave us feedback that they mostly liked the visual scheme of Scholar Plot. Another observation is that the participants agree to use Scholar Plot to evaluate themselves $(\mu = 4.1)$. They suggested that Scholar Plot can be improved by adding more funding agencies. Overall, this evaluation indicated that Scholar Plot is a user-friendly tool that complements the CV which can be used to review a scholar's accomplishments. The survey has been approved by the University of Houston Institutional Review Board (IRB).
+
+ \begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{figures/fig_survey_chart}
+%  \vspace{-3ex}
+  \caption{Mean evaluation of Scholar Plot. A total of $n=15$ participants evaluated the survey.}
+  \label{fig:UserStudy}
+\end{figure}
+
+
+
+% --------------------------
+\section{User Feedback - Focus Group}
+% --------------------------
+
+We ran a focus group with 10  Principal Investigators and their post docs at Northwestern University. The participant set included biologists, physicists, computer scientists, and social scientists.  The focus group's suggestions are synopsized as follows:
+\begin{description}
+\item [Interface team science information.] Participants wanted to see the number and intensity of collaborations for the depicted scholar.
+\item [Summarize highly cited papers.] Participants wanted to see explicitly in a side panel the scholar's most popular papers.
+\item [Interface journal profile.] Participants wanted to see the specific journals where the scholar publishes most often and their impact factors.
+\end{description}
+
+The participants believed that accessorizing the central publication graph with this additional information would support deeper instant comprehension without compromising the elegance of SP's compact visual representation. Specifically, this additional interface would reveal the collaborative nature of the scholar's work, give hints if s/he is regular in specific disciplinary journals or if s/he publishes in a variety of journals (interdisciplinarity), and give the rank of these journals. All this information can also be gleaned by rolling the mouse over the publication graph, reading the tooltips; summarizing it in panels under the graph, however, renders such manual investigation unnecessary.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_panel1-N}
+    \caption{Panel listing the top collaborators with the selected scholar ranked by the count of the number of publications collaborated.}
+    \label{fig:panel1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_panel3-N}
+    \caption{Panel highlighting the top 5 cited papers of the selected scholar.}
+    \label{fig:panel3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_panel2-N}
+    \caption{Panel displaying the top journals ranked by the frequency of publication.}
+    \label{fig:panel2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{figures/fig_panel4-N}
+    \caption{Panel showing the top 5 journals where the selected scholar published ranked by the impact factor.}
+    \label{fig:panel4}
+\end{figure}
+
+
+
+
+
+
+% --------------------------
+\section{Academic Garden Validation - Chaired Faculty }
+% --------------------------
+
+In progress....
+
+
+
+
+
+
+% ==================================================
+\chapter{Conclusion}\label{chap:Conclusion}
+% ==================================================
+We have described a visualization method that complements the information contained in a researcher's Google Scholar page and summarized by her/his {\it h}-index. One can draw insightful conclusions about the individual's scholastic accomplishments. These conclusions are not supported by the {\it h}-index alone and cannot be derived by the CV or the Google Scholar page, unless a significant investigative effort is undertaken. Our user study also supports this.
+
+This approach not only focusses on journal publications, conferences / books and patents but also NSF/NIH/NASA funding data. Scholar Plot is a simple, yet valuable visualization scheme. It is likely to have broad appeal not only because it would be useful to evaluation committees, but also because it is available online for free at \url{http://www.scholarplot.com}.
+
+
+I presented Scholar Plot (SP), a scalable (individual-department-college) visualization interface for academic merit. I have released Scholar Plot at \href{http://scholarplot.com}{http://scholarplot.com}.
+
+Scholar Plot works at three levels - the individual, the department, and the college. The individual (base) level captures in a figure three key indicators of academic prowess: citation impact, prestige of publication venues, and research funding. These indicators scale up in the department \& college (aggregate) levels of Scholar Plot as pie charts, revealing at a glance the relative contributions of entities from the lower echelon.
+
+The basic idea behind Scholar Plot is to facilitate instant deeper comprehension regarding different strengths of academic records, supporting the work of evaluation committees and the curious academic in search of an advisor or department. One of SP's strengths is that it draws data from open sources that are inclusive. This creates, however, a technical problem because Google Scholar - a key open source used by SP - does not offer an application programming interface. For the base level of SP we solved this problem with sophisticated data scraping assisted by a simple one-time wiki function: if the individual sought by the user is not recognized by SP, then SP asks the user to copy and paste the targeted individual's Google Scholar URL; SP remembers it thereafter, automatically scraping the scholar's data every time a user requests it by name. For the department and college levels, a wiki function is in the works.
+
+A focus group and a survey study indicated that the base level of SP is well received by academics. We plan to conduct a longitudinal study of SP users, to further inform the design cycle.
+
+% Academic Garden is available on the top of department plot and it illustrats 
+
+
+
+% --------------------------
+\chapter{Appendix}
+% --------------------------
+
+
+% --------------------------
+\section{Usage of Scholar Plot}
+% --------------------------
+In this section, I will explain how to access and use Scholar Plot. This includes searching for a scholar from Google, inserting a scholar, obtaining results, and the scholar's profile URL.
+
+% --------------------------
+\subsection{Searching for a scholar}
+% --------------------------
+To visualize the accomplisments of a scholar, type the name of a scholar in the search box. As you type, Scholar Plot will attempt to match your query to the names of scholars in our system.
+
+\begin{figure*}[hb]
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Support-3}
+  \caption{An example of Scholar Plot - Type the name of a scholar in the search box}~\label{fig:Support-3}
+  % \vspace{-2ex}
+\end{figure*}
+
+If the result of a search produces no results, Scholar Plot will prompt you to enter the URL of the person's Google Scholar Citations Profile. Instructions for finding a Google Scholar URL can be found.
+
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Support-4}
+  \caption{An example of Scholar Plot - No Results in Scholar Plot Search}~\label{fig:Support-4}
+  % \vspace{-2ex}
+\end{figure*}
+
+
+
+
+% --------------------------
+\subsection{If a name cannot be found}
+% --------------------------
+When a name cannot be found in our system, Scholar Plot will prompt the user to enter the URL of the person's Google Scholar Citations Profile. This URL can be found using the search bar on the Google Scholar website (here\href{https://scholar.google.com/citations?mauthors=&hl=en&view_op=search_authors}).
+
+If the names of more than one scholar match the query, you will need to locate the correct scholar in the search results.
+
+
+
+% --------------------------
+\subsection{Google Scholar Author Search Results}
+% --------------------------
+From the person's Google Scholar Citations Profile page, copy the URL from your web browser's address bar.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Support-1}
+  \caption{An example of Scholar Plot - Visualizing Funding Data}~\label{fig:Support-1}
+  % \vspace{-2ex}
+\end{figure*}
+
+
+
+
+% --------------------------
+\subsection{Obtaining the Google Scholar Profile URL}
+% --------------------------
+Return to Scholar Plot and click the `Submit` button. The scholar's information will then appear and their name can be used in future searches on Scholar Plot and Scholar Compare.
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Support-2}
+  \caption{An example of Scholar Plot - Copying the Google Scholar Citations Profile URL}~\label{fig:Support-2}
+  % \vspace{-2ex}
+\end{figure*}
+
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figures/Support-5}
+  \caption{An example of Scholar Plot - Pasting the Google Scholar Citations Profile URL}~\label{fig:Support-5}
+  % \vspace{-2ex}
+\end{figure*}
+
+
+
+
+
+% \lstinputlisting[language=SQL, caption=Cption]{./codes/Disambiguation-step1.sql}
+% \lstinputlisting[language=SQL]{./codes/Disambiguation-step2.sql}
+% \lstinputlisting[language=SQL]{./codes/Disambiguation-step3.sql}
+% \lstinputlisting[language=SQL]{./codes/Disambiguation-step4.sql}
+% \lstinputlisting[language=SQL]{./codes/Disambiguation-step5.sql}
+
+
+
+%\section{Summary of Contributions}
+%
+%\subsection{Image Segmentation}
+%
+%\subsection{Cardiac Morphology and Function}
+%
+%\subsection{Coronary Artery Shape-Motion Analysis}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Progression and Scope for Future Work}
+%
+%
+%\subsection{Algorithm for the Automatic LV Blood Pool Segmentation
+%from Short-Axis Dual-Contrast MR Data}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Algorithm for the Automatic Delineation of Myocardial
+%Contours in Short-Axis Cardiac Cine-bFFE MR Sequences}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Algorithm for the Automatic Computation of EF from the Short-Axis Cardiac Cine-bFFE MR Sequences}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Computational Framework for the 4D
+%Shape-Motion Analysis of the LAD}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Future Work}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

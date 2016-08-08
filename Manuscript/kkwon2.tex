@@ -1,0 +1,112 @@
+%  University of Houston PhD proposal and dissertation
+%
+% on  PC
+%\documentclass[12pt]{report}
+% \usepackage{uhthesis}
+% \usepackage[pctex32]{graphics}
+% \usepackage[pctex32]{color}
+%\usepackage{psfig}
+\documentclass[12pt]{report}
+\usepackage{uhthesis3}
+\usepackage{epsfig}
+\usepackage{epsf}
+\usepackage[hidelinks]{hyperref}
+\usepackage{subfigure}
+
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{listings}
+
+
+\input{definitions.tex}
+%\input{algorithms}
+%
+%
+%
+% on UNIX LATEX and Windows PCTEX32
+%\documentstyle[12pt,uhthesis1,psfig]{report}
+%\usepackage{epsfig}
+%\input{algorithms}
+%\input{psfig}
+%\input{dnmmath}
+%\input{ion-math}
+
+\setcounter{secnumdepth}{4}
+\begin{document}
+
+\title{\bf \large Scalable Data Visualization Methods\\ for Academic Careers }
+\author{Kyeongan Kwon}
+\submitdate{August 2016} \degree{Doctor of Philosophy}{Dissertation}
+\adviser{Dr. Ioannis Pavlidis, Chairman\\
+Department of Computer Science\\
+University of Houston }
+
+\firstreader{Dr. Zhigang Deng\\
+Department of Computer Science\\
+University of Houston}
+
+\secondreader{Dr. Guoning Chen\\
+Department of Computer Science\\
+University of Houston }
+
+\thirdreader{Dr. Brian Uzzi\\
+Kellogg School of Management \\
+Northwestern University }
+
+%\fourthreader{}
+
+
+\copyrightfalse \makecoverpages
+\begin{acknowledgements}
+\input{acknowledgements.tex}
+\end{acknowledgements}
+
+\begin{abstract}
+\input {abstract.tex}
+\end{abstract}
+\setlength{\parskip}{.1 in}
+
+\makecontentspages
+
+%uncomment the following for single space drafts
+%\singlespace
+
+% \pagenumbering{romans}{1}
+% \beforepreface
+
+%\pagestyle(empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% \input{chapter0Nomenclature.tex}
+% \setcounter{page}{0}
+
+\chapterpages
+
+%turn figures on and off
+\newif \ifFIGS
+
+%\FIGStrue
+
+\FIGSfalse
+
+
+% to fix the page number
+%\input{Sample_chapter.tex}
+%\input{table.tex}
+\input{chap1_Introduction.tex}
+\input{chap2_Background.tex}
+\input{chap3_Methods.tex}
+%\input{chap3_Methods_AG.tex}
+\input{chap4_Algorithms.tex}
+\input{chap5_Results.tex}
+\input{chap6_Conclusion.tex}
+%\input{main.tex}
+\input{Appendix.tex}
+
+\bibliographystyle{abbrv}
+\bibliography{kkwon2}
+\end{document}

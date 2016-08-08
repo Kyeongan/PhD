@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Related Work}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Methods}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Design Process}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Scholar Plot - Individual Visualization}{chapter.3}% 5
+\BOOKMARK [2][-]{subsection.3.2.1}{Publication Data}{section.3.2}% 6
+\BOOKMARK [2][-]{subsection.3.2.2}{Funding Data}{section.3.2}% 7
+\BOOKMARK [1][-]{section.3.3}{Department Plot - Group Visualization}{chapter.3}% 8
+\BOOKMARK [2][-]{subsection.3.3.1}{Department Plot}{section.3.3}% 9
+\BOOKMARK [2][-]{subsection.3.3.2}{Department Plot Glossary}{section.3.3}% 10
+\BOOKMARK [2][-]{subsection.3.3.3}{College Plot}{section.3.3}% 11
+\BOOKMARK [2][-]{subsection.3.3.4}{College Plot Glossary}{section.3.3}% 12
+\BOOKMARK [2][-]{subsection.3.3.5}{Compare Plot}{section.3.3}% 13
+\BOOKMARK [2][-]{subsection.3.3.6}{Compare Plot Glossary}{section.3.3}% 14
+\BOOKMARK [1][-]{section.3.4}{Academic Garden - Scalable Visualization}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.4.1}{Research Funding: Enabler of Production}{section.3.4}% 16
+\BOOKMARK [2][-]{subsection.3.4.2}{Prestige of Product Venue: Pre-production Achievement}{section.3.4}% 17
+\BOOKMARK [2][-]{subsection.3.4.3}{Product Impact: Post-production Achievement}{section.3.4}% 18
+\BOOKMARK [2][-]{subsection.3.4.4}{Academic Garden Flower Diagram}{section.3.4}% 19
+\BOOKMARK [0][-]{chapter.4}{Software Design}{}% 20
+\BOOKMARK [1][-]{section.4.1}{Data Sources}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.2}{System Architecture}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.3}{Name Disambiguation}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.3.1}{Within the Google Scholar profile}{section.4.3}% 24
+\BOOKMARK [2][-]{subsection.4.3.2}{Between Google Scholar and Funding datasets}{section.4.3}% 25
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 26
+\BOOKMARK [1][-]{section.5.1}{User Feedback - Usability Study}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.2}{User Feedback - Focus Group}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.3}{Global and Local Bias Correction}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.4}{Data Analysis}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 31
+\BOOKMARK [0][-]{chapter.7}{Appendix}{}% 32
+\BOOKMARK [1][-]{section.7.1}{Usage of Scholar Plot}{chapter.7}% 33
+\BOOKMARK [2][-]{subsection.7.1.1}{Searching for a scholar}{section.7.1}% 34
+\BOOKMARK [2][-]{subsection.7.1.2}{If a name cannot be found}{section.7.1}% 35
+\BOOKMARK [2][-]{subsection.7.1.3}{Google Scholar Author Search Results}{section.7.1}% 36
+\BOOKMARK [2][-]{subsection.7.1.4}{Obtaining the Google Scholar Profile URL}{section.7.1}% 37
+\BOOKMARK [0][-]{figure.7.5}{Bibliography}{}% 38

@@ -1,0 +1,170 @@
+\begin{thebibliography}{10}
+
+\bibitem{nasa}
+N.~Aeronautics and S.~Administration.
+\newblock Research.gov - research spending \& results.
+\newblock
+  \url{https://www.research.gov/research-portal/appmanager/base/desktop?_nfpb=true&_eventName=viewQuickSearchFormEvent_so_rsr},
+  2016.
+\newblock [Accessed on 2016].
+
+\bibitem{Bornmann2}
+L.~Bornmann and H.-D. Daniel.
+\newblock The state of h index research. is the h index the ideal way to
+  measure research performance?
+\newblock {\em EMBO reports}, 10(1):2--6, 2008.
+
+\bibitem{d3js}
+M.~Bostock.
+\newblock D3: Data-driven documents. d3 (or d3.js) is a javascript library for
+  visualizing data using web standards.
+\newblock \url{https://d3js.org/}, 2016.
+\newblock [Accessed on 2016].
+
+\bibitem{Katy:2010}
+K.~Brner.
+\newblock {\em Atlas of Science: Visualizing What We Know}.
+\newblock The MIT Press, 2010.
+
+\bibitem{Chen:2001}
+C.~Chen, R.~J. Paul, and B.~O'Keefe.
+\newblock Fitting the jigsaw of citation: Information visualization in domain
+  analysis.
+\newblock {\em Journal of the American Society for Information Science and
+  Technology}, 52(4):315--330, 2001.
+
+\bibitem{Scopu91:online}
+Esevier.
+\newblock Scopus - the largest abstract and citation database of peer-reviewed
+  literature.
+\newblock \url{https://www.scopus.com/}.
+\newblock [Accessed 2016].
+
+\bibitem{CIPus76:online}
+T.~N.~C. for Education Statistics designed the Classification~of
+  Instructional~Program.
+\newblock Classification of instructional programs (cip).
+\newblock \url{https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55}.
+\newblock [Accessed on 2016].
+
+\bibitem{nsf}
+N.~S. Foundation.
+\newblock Nsf award search: Download awards by year.
+\newblock \url{http://www.nsf.gov/awardsearch/download.jsp}, 2016.
+\newblock [Accessed on 2016].
+
+\bibitem{R:The81:online}
+T.~R. Foundation.
+\newblock R: The r project for statistical computing.
+\newblock \url{https://www.r-project.org/}.
+\newblock [Accessed on 2016].
+
+\bibitem{garfield2006history}
+E.~Garfield.
+\newblock The history and meaning of the journal impact factor.
+\newblock {\em Jama}, 295(1):90--93, 2006.
+
+\bibitem{Googl82:online}
+Google.
+\newblock Google scholar.
+\newblock \url{https://scholar.google.com/}.
+\newblock [Accessed on 2016].
+
+\bibitem{XMLStarlet}
+M.~Grushinskiy.
+\newblock Xmlstarlet command line xml toolkit.
+\newblock \url{http://xmlstar.sourceforge.net}, 2016.
+\newblock [Accessed on 2016].
+
+\bibitem{Hirsch:2005}
+J.~E. Hirsch.
+\newblock An index to quantify an individual's scientific research output.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 102(46):16569--16572, 2005.
+
+\bibitem{htmlSQL}
+J.~John.
+\newblock hxseven/htmlsql: htmlsql is a experimental php library which allows
+  you to access html values by an sql like syntax.
+\newblock \url{https://github.com/hxseven/htmlSQL}, 2016.
+\newblock [Accessed on 2016].
+
+\bibitem{kang2008interactive}
+H.~Kang, L.~Getoor, B.~Shneiderman, M.~Bilgic, and L.~Licamele.
+\newblock Interactive entity resolution in relational data: A visual analytic
+  tool and its evaluation.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  14(5):999--1014, 2008.
+
+\bibitem{Kaur:2014}
+J.~Kaur, M.~JafariAsbagh, F.~Radicchi, and F.~Menczer.
+\newblock {Scholarometer: A system for crowdsourcing scholarly impact metrics}.
+\newblock In {\em Proceedings of the 2014 ACM Conference on Web Science (WebSci
+  2014)}, pages 285--286, Bloomington, Indiana, June 23-26, 2014. ACM.
+
+\bibitem{Leydesdorff:2007}
+L.~Leydesdorff.
+\newblock Visualization of the citation impact environments of scientific
+  journals: An online mapping exercise.
+\newblock {\em Journal of the American Society for Information Science and
+  Technology}, 58(1):25--38, 2007.
+
+\bibitem{mcdonough1998college}
+P.~M. McDonough, A.~Lising, A.~M. Walpole, and L.~X. Perez.
+\newblock College rankings: democratized college knowledge for whom?
+\newblock {\em Research in Higher Education}, 39(5):513--537, 1998.
+
+\bibitem{usnews}
+U.~News.
+\newblock Best colleges | college rankings | us news education - us news.
+\newblock \url{http://colleges.usnews.rankingsandreviews.com/best-colleges},
+  2016.
+\newblock [Accessed on 2016].
+
+\bibitem{nih}
+N.~I. of~Health.
+\newblock Exporter data catalog.
+\newblock \url{http://exporter.nih.gov/ExPORTER_Catalog.aspx}, 2016.
+\newblock [Accessed on 2016].
+
+\bibitem{nvd3org}
+N.~Partners.
+\newblock Nvd3: A reusable charting library written in d3.js.
+\newblock \url{http://www.nvd3.org}, 2016.
+\newblock [Accessed on 2016].
+
+\bibitem{Thoms79:online}
+T.~Reuters.
+\newblock Thomson reuters - ip \& science - web of science.
+\newblock
+  \url{http://ipscience.thomsonreuters.com/product/web-of-science/?utm_source=false&utm_medium=false&utm_campaign=false}.
+\newblock [Accessed on 2016].
+
+\bibitem{sabrina741}
+A.~Robecke, R.~Pryss, and M.~Reichert.
+\newblock Dbischolar: An iphone application for performing citation analyses.
+\newblock In {\em CAiSE Forum-2011}, number Vol-73 in Proceedings of the
+  CAiSE'11 Forum at the 23rd International Conference on Advanced Information
+  Systems Engineering. CEUR Workshop Proceedings, June 2011.
+
+\bibitem{Toadf85:online}
+D.~Toad.
+\newblock Toad for oracle | oracle database tools | sql development \&
+  administration | dell software.
+\newblock \url{http://software.dell.com/products/toad-for-oracle/}.
+\newblock [Accessed on 2016].
+
+\bibitem{Vardell:2011}
+E.~Vardell, T.~Feddern-Bekcan, and M.~Moore.
+\newblock {SciVal experts: A collaborative tool}.
+\newblock {\em Medical Reference Services Quarterly}, 30(3):283--294, 2011.
+
+\bibitem{Yi:2008:UCI}
+J.~S. Yi, Y.-a. Kang, J.~T. Stasko, and J.~A. Jacko.
+\newblock Understanding and characterizing insights: How do people gain
+  insights using information visualization?
+\newblock In {\em Proceedings of the 2008 Workshop on BEyond Time and Errors:
+  Novel evaLuation Methods for Information Visualization}, BELIV '08, pages
+  4:1--4:6, New York, NY, USA, 2008. ACM.
+
+\end{thebibliography}

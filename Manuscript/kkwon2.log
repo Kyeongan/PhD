@@ -1,0 +1,1336 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.5.24)  29 JUL 2016 10:48
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**kkwon2.tex
+(./kkwon2.tex
+LaTeX2e <2016/03/31>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(./uhthesis3.sty
+Document Style Option `uhthesis' <31 Aug 90>.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen107
+\epsfframethickness=\dimen108
+\epsfrsize=\dimen109
+\epsftmp=\dimen110
+\epsftsize=\dimen111
+\epsfxsize=\dimen112
+\epsfysize=\dimen113
+\pspoints=\dimen114
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen115
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count91
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count92
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen116
+\Fld@menulength=\count93
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen119
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen120
+\subfiglabelskip=\skip47
+\c@subfigure=\count99
+\c@lofdepth=\count100
+\c@subtable=\count101
+\c@lotdepth=\count102
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+(./amsmath.sty
+Package: amsmath 1996/11/01 v1.2c AMS math features
+\@mathmargin=\skip50
+ (./amstext.sty
+Package: amstext 1996/10/28 v1.2b
+ (./amsgen.sty
+File: amsgen 1996/10/29 v1.2b
+\@emptytoks=\toks15
+\ex@=\dimen121
+)) (./amsbsy.sty
+Package: amsbsy 1996/10/28 v1.2b
+\pmbraise@=\dimen122
+) (./amsopn.sty
+Package: amsopn 1996/10/28 v1.2b operator names
+)
+LaTeX Info: Redefining \frac on input line 188.
+\uproot@=\count103
+\leftroot@=\count104
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \dots on input line 335.
+LaTeX Info: Redefining \ldots on input line 418.
+LaTeX Info: Redefining \cdots on input line 422.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen123
+LaTeX Font Info:    Redeclaring font encoding OML on input line 500.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 501.
+\skewcharcount@=\count107
+\familycount@=\count108
+\pointcount@=\count109
+\accentdimen@=\dimen124
+\accentmu@=\count110
+\minaw@=\dimen125
+\c@MaxMatrixCols=\count111
+\dotsspace@=\muskip11
+\c@parentequation=\count112
+\dspbrk@lvl=\count113
+\tag@help=\toks16
+\row@=\count114
+\column@=\count115
+\maxfields@=\count116
+\andhelp@=\toks17
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
+\@envbody=\toks18
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks19
+\float@box=\box28
+\@float@everytoks=\toks20
+\@floatcapt=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks21
+\c@algorithm=\count118
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count119
+\c@ALG@rem=\count120
+\c@ALG@nested=\count121
+\ALG@tlm=\skip53
+\ALG@thistlm=\skip54
+\c@ALG@Lnr=\count122
+\c@ALG@blocknr=\count123
+\c@ALG@storecount=\count124
+\c@ALG@tmpcounter=\count125
+\ALG@tmplength=\skip55
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count126
+\lst@gtempboxa=\box30
+\lst@token=\toks22
+\lst@length=\count127
+\lst@currlwidth=\dimen132
+\lst@column=\count128
+\lst@pos=\count129
+\lst@lostspace=\dimen133
+\lst@width=\dimen134
+\lst@newlines=\count130
+\lst@lineno=\count131
+\lst@maxwidth=\dimen135
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count132
+\lst@skipnumbers=\count133
+\lst@framebox=\box31
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./definitions.tex
+\c@lfigcounter=\count134
+) (./kkwon2.aux
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig:DP-College1' multiply defined.
+
+
+LaTeX Warning: Label `fig-AG-global' multiply defined.
+
+)
+\openout1 = `kkwon2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+ (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count135
+\scratchdimen=\dimen136
+\scratchbox=\box32
+\nofMPsegments=\count136
+\nofMParguments=\count137
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count138
+\MPscratchDim=\dimen137
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 36.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count141
+)
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
+
+(./kkwon2.out) (./kkwon2.out)
+\@outlinefile=\write3
+\openout3 = `kkwon2.out'.
+
+\c@lstlisting=\count142
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
+acknowledgements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+) [3] [4] (./abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[5]) [6] (./kkwon2.toc [7
+
+])
+\tf@toc=\write4
+\openout4 = `kkwon2.toc'.
+
+ [8] (./kkwon2.lof [9
+
+] [10] [11])
+\tf@lof=\write5
+\openout5 = `kkwon2.lof'.
+
+ [12] (./kkwon2.lot)
+\tf@lot=\write6
+\openout6 = `kkwon2.lot'.
+
+ [13
+
+] (./chap1_Introduction.tex
+Chapter 1.
+) (./chap2_Background.tex [1
+
+]
+Chapter 2.
+<figures/H-index.png, id=415, 2007.5pt x 2007.5pt>
+File: figures/H-index.png Graphic file (type png)
+ <use figures/H-index.png>
+Package pdftex.def Info: figures/H-index.png used on input line 9.
+(pdftex.def)             Requested size: 129.00319pt x 128.9911pt.
+
+[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.16 
+      <./figures/H-index.png>] [3]) (./chap3_Methods.tex [4]
+Chapter 3.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+ [5
+
+] [6]
+<figures/fig-code-xml.png, id=474, 857.2025pt x 374.39874pt>
+File: figures/fig-code-xml.png Graphic file (type png)
+
+<use figures/fig-code-xml.png>
+Package pdftex.def Info: figures/fig-code-xml.png used on input line 38.
+(pdftex.def)             Requested size: 430.00627pt x 187.81018pt.
+
+<figures/fig_scaleView-HD.png, id=475, 1409.265pt x 890.32625pt>
+File: figures/fig_scaleView-HD.png Graphic file (type png)
+
+<use figures/fig_scaleView-HD.png>
+Package pdftex.def Info: figures/fig_scaleView-HD.png used on input line 45.
+(pdftex.def)             Requested size: 430.00627pt x 271.66458pt.
+
+<figures/fig_publication-1.png, id=476, 1405.25pt x 698.61pt>
+File: figures/fig_publication-1.png Graphic file (type png)
+
+<use figures/fig_publication-1.png>
+Package pdftex.def Info: figures/fig_publication-1.png used on input line 52.
+(pdftex.def)             Requested size: 344.00632pt x 171.01703pt.
+
+<figures/fig_publication-2.png, id=477, 986.68625pt x 595.22375pt>
+File: figures/fig_publication-2.png Graphic file (type png)
+
+<use figures/fig_publication-2.png>
+Package pdftex.def Info: figures/fig_publication-2.png used on input line 53.
+(pdftex.def)             Requested size: 344.00632pt x 207.5231pt.
+
+<figures/fig_publication-3.png, id=478, 1058.95625pt x 421.575pt>
+File: figures/fig_publication-3.png Graphic file (type png)
+
+<use figures/fig_publication-3.png>
+Package pdftex.def Info: figures/fig_publication-3.png used on input line 54.
+(pdftex.def)             Requested size: 344.00632pt x 136.95235pt.
+
+
+LaTeX Warning: Float too large for page by 7.33249pt on input line 57.
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./figures/fig-code-xml.png>] [8pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./figures/fig_scaleView-HD.png>] [9pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.3.3}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./figures/fig_publication-1.png> <./figures/fig_publication-2.png> <./fi
+gures/fig_publication-3.png>]
+<figures/fig-panel-coauthros.png, id=502, 1419.3025pt x 705.63625pt>
+File: figures/fig-panel-coauthros.png Graphic file (type png)
+
+<use figures/fig-panel-coauthros.png>
+Package pdftex.def Info: figures/fig-panel-coauthros.png used on input line 77.
+
+(pdftex.def)             Requested size: 430.00627pt x 213.78133pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.82 
+      <./figures/fig-panel-coauthros.png>]
+<figures/fig_tooltip.png, id=510, 1044.90375pt x 349.305pt>
+File: figures/fig_tooltip.png Graphic file (type png)
+
+<use figures/fig_tooltip.png>
+Package pdftex.def Info: figures/fig_tooltip.png used on input line 85.
+(pdftex.def)             Requested size: 430.00627pt x 143.74896pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91 
+      <./figures/fig_tooltip.png>]
+<figures/fig_legend-toggle.png, id=518, 782.925pt x 145.54375pt>
+File: figures/fig_legend-toggle.png Graphic file (type png)
+
+<use figures/fig_legend-toggle.png>
+Package pdftex.def Info: figures/fig_legend-toggle.png used on input line 94.
+(pdftex.def)             Requested size: 344.00632pt x 63.9506pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.116 
+       <./figures/fig_legend-toggle.png (PNG copy)>]
+<figures/fig_distribution_A.png, id=527, 211.79124pt x 692.5875pt>
+File: figures/fig_distribution_A.png Graphic file (type png)
+
+<use figures/fig_distribution_A.png>
+Package pdftex.def Info: figures/fig_distribution_A.png used on input line 121.
+
+(pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
+
+<figures/fig_distribution_B.png, id=528, 211.79124pt x 692.5875pt>
+File: figures/fig_distribution_B.png Graphic file (type png)
+
+<use figures/fig_distribution_B.png>
+Package pdftex.def Info: figures/fig_distribution_B.png used on input line 124.
+
+(pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
+
+<figures/fig_distribution_C.png, id=529, 211.79124pt x 692.5875pt>
+File: figures/fig_distribution_C.png Graphic file (type png)
+
+<use figures/fig_distribution_C.png>
+Package pdftex.def Info: figures/fig_distribution_C.png used on input line 127.
+
+(pdftex.def)             Requested size: 98.8996pt x 323.41313pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.142 
+       <./figures/fig_distribution_A.png (PNG copy)> <./figures/fig_distributio
+n_B.png (PNG copy)> <./figures/fig_distribution_C.png (PNG copy)>]
+<figures/fig-RolandGlowinski.png, id=542, 1159.33125pt x 354.32375pt>
+File: figures/fig-RolandGlowinski.png Graphic file (type png)
+
+<use figures/fig-RolandGlowinski.png>
+Package pdftex.def Info: figures/fig-RolandGlowinski.png used on input line 146
+.
+(pdftex.def)             Requested size: 430.00627pt x 131.42212pt.
+
+<figures/fig-DannyReinberg.png, id=543, 1159.33125pt x 354.32375pt>
+File: figures/fig-DannyReinberg.png Graphic file (type png)
+
+<use figures/fig-DannyReinberg.png>
+Package pdftex.def Info: figures/fig-DannyReinberg.png used on input line 152.
+(pdftex.def)             Requested size: 430.00627pt x 131.42212pt.
+
+<figures/fig-ThadStarner.png, id=544, 1064.97874pt x 386.44376pt>
+File: figures/fig-ThadStarner.png Graphic file (type png)
+
+<use figures/fig-ThadStarner.png>
+Package pdftex.def Info: figures/fig-ThadStarner.png used on input line 158.
+(pdftex.def)             Requested size: 430.00627pt x 156.03123pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.168 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.168 
+       <./figures/fig-RolandGlowinski.png (PNG copy)> <./figures/fig-DannyReinb
+erg.png (PNG copy)>]
+<figures/fig-Histogram-IF.png, id=549, 565.11125pt x 391.4625pt>
+File: figures/fig-Histogram-IF.png Graphic file (type png)
+
+<use figures/fig-Histogram-IF.png>
+Package pdftex.def Info: figures/fig-Histogram-IF.png used on input line 176.
+(pdftex.def)             Requested size: 301.00307pt x 208.51347pt.
+
+<figures/fig-disksize.png, id=552, 524.96124pt x 227.85126pt>
+File: figures/fig-disksize.png Graphic file (type png)
+
+<use figures/fig-disksize.png>
+Package pdftex.def Info: figures/fig-disksize.png used on input line 184.
+(pdftex.def)             Requested size: 215.00313pt x 93.31879pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.196 
+       <./figures/fig-ThadStarner.png (PNG copy)>] [16pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.3.11}) has been already used, d
+uplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.196 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.196 
+       <./figures/fig-Histogram-IF.png> <./figures/fig-disksize.png (PNG copy)>
+] <figures/fig_funding_default.png, id=563, 996.72375pt x 453.695pt>
+File: figures/fig_funding_default.png Graphic file (type png)
+
+<use figures/fig_funding_default.png>
+Package pdftex.def Info: figures/fig_funding_default.png used on input line 199
+.
+(pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
+
+<figures/fig_funding_total.png, id=564, 996.72375pt x 453.695pt>
+File: figures/fig_funding_total.png Graphic file (type png)
+
+<use figures/fig_funding_total.png>
+Package pdftex.def Info: figures/fig_funding_total.png used on input line 200.
+(pdftex.def)             Requested size: 430.00627pt x 195.72887pt.
+ [17]
+<figures/fig-Eugene-with-menu.png, id=569, 2657.93pt x 3003.22pt>
+File: figures/fig-Eugene-with-menu.png Graphic file (type png)
+
+<use figures/fig-Eugene-with-menu.png>
+Package pdftex.def Info: figures/fig-Eugene-with-menu.png used on input line 21
+2.
+(pdftex.def)             Requested size: 430.00627pt x 485.84077pt.
+
+
+LaTeX Warning: Float too large for page by 19.18079pt on input line 214.
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.224 
+       <./figures/fig_funding_default.png (PNG copy)> <./figures/fig_funding_to
+tal.png (PNG copy)>] [19pdfTeX warning (ext4): destination with the same identi
+fier (name{figure.3.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.224 
+       <./figures/fig-Eugene-with-menu.png>]
+<figures/Coll-h-HD.png, id=579, 1375.1375pt x 526.96875pt>
+File: figures/Coll-h-HD.png Graphic file (type png)
+
+<use figures/Coll-h-HD.png>
+Package pdftex.def Info: figures/Coll-h-HD.png used on input line 240.
+(pdftex.def)             Requested size: 430.00627pt x 164.78186pt.
+
+<figures/Coll-Cit-HD.png, id=580, 1359.0775pt x 460.72125pt>
+File: figures/Coll-Cit-HD.png Graphic file (type png)
+
+<use figures/Coll-Cit-HD.png>
+Package pdftex.def Info: figures/Coll-Cit-HD.png used on input line 247.
+(pdftex.def)             Requested size: 430.00627pt x 145.76768pt.
+
+<figures/Coll-Cit-HD2.png, id=581, 1353.055pt x 504.88625pt>
+File: figures/Coll-Cit-HD2.png Graphic file (type png)
+
+<use figures/Coll-Cit-HD2.png>
+Package pdftex.def Info: figures/Coll-Cit-HD2.png used on input line 248.
+(pdftex.def)             Requested size: 430.00627pt x 160.44981pt.
+
+<figures/Coll-Cit-HD3.png, id=582, 1326.9575pt x 604.2575pt>
+File: figures/Coll-Cit-HD3.png Graphic file (type png)
+
+<use figures/Coll-Cit-HD3.png>
+Package pdftex.def Info: figures/Coll-Cit-HD3.png used on input line 249.
+(pdftex.def)             Requested size: 430.00627pt x 195.80971pt.
+
+
+LaTeX Warning: Float too large for page by 8.36722pt on input line 251.
+
+<figures/Coll-IF-HD.png, id=583, 1349.04pt x 503.8825pt>
+File: figures/Coll-IF-HD.png Graphic file (type png)
+
+<use figures/Coll-IF-HD.png>
+Package pdftex.def Info: figures/Coll-IF-HD.png used on input line 255.
+(pdftex.def)             Requested size: 430.00627pt x 160.60753pt.
+
+<figures/Coll-IF-HD2.png, id=584, 1346.02875pt x 508.90125pt>
+File: figures/Coll-IF-HD2.png Graphic file (type png)
+
+<use figures/Coll-IF-HD2.png>
+Package pdftex.def Info: figures/Coll-IF-HD2.png used on input line 256.
+(pdftex.def)             Requested size: 430.00627pt x 162.57217pt.
+
+<figures/Coll-IF-HD3.png, id=585, 1427.3325pt x 563.10374pt>
+File: figures/Coll-IF-HD3.png Graphic file (type png)
+
+<use figures/Coll-IF-HD3.png>
+Package pdftex.def Info: figures/Coll-IF-HD3.png used on input line 257.
+(pdftex.def)             Requested size: 430.00627pt x 169.64558pt.
+
+<figures/Coll-Fund-HD.png, id=586, 1358.07375pt x 612.2875pt>
+File: figures/Coll-Fund-HD.png Graphic file (type png)
+
+<use figures/Coll-Fund-HD.png>
+Package pdftex.def Info: figures/Coll-Fund-HD.png used on input line 263.
+(pdftex.def)             Requested size: 430.00627pt x 193.86191pt.
+ [20] [21pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Coll-h-HD.png>]
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Coll-Cit-HD.png> <./
+figures/Coll-Cit-HD2.png> <./figures/Coll-Cit-HD3.png>] [23pdfTeX warning (ext4
+): destination with the same identifier (name{figure.3.17}) has been already us
+ed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.281   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Coll-IF-HD.png> <./f
+igures/Coll-IF-HD2.png> <./figures/Coll-IF-HD3.png>] [24pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.3.18}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.287   \item[FUNDING]
+                       \hfill \\ <./figures/Coll-Fund-HD.png>]
+<figures/Dept-h-HD.png, id=616, 1419.3025pt x 558.085pt>
+File: figures/Dept-h-HD.png Graphic file (type png)
+
+<use figures/Dept-h-HD.png>
+Package pdftex.def Info: figures/Dept-h-HD.png used on input line 305.
+(pdftex.def)             Requested size: 430.00627pt x 169.07883pt.
+
+<figures/Dept-Cit-HD.png, id=617, 1383.1675pt x 557.08125pt>
+File: figures/Dept-Cit-HD.png Graphic file (type png)
+
+<use figures/Dept-Cit-HD.png>
+Package pdftex.def Info: figures/Dept-Cit-HD.png used on input line 311.
+(pdftex.def)             Requested size: 430.00627pt x 173.18642pt.
+
+<figures/Dept-Cit-HD2.png, id=618, 1373.13pt x 558.085pt>
+File: figures/Dept-Cit-HD2.png Graphic file (type png)
+
+<use figures/Dept-Cit-HD2.png>
+Package pdftex.def Info: figures/Dept-Cit-HD2.png used on input line 312.
+(pdftex.def)             Requested size: 430.00627pt x 174.7673pt.
+
+<figures/Dept-Cit-HD3.png, id=619, 1340.00626pt x 600.2425pt>
+File: figures/Dept-Cit-HD3.png Graphic file (type png)
+
+<use figures/Dept-Cit-HD3.png>
+Package pdftex.def Info: figures/Dept-Cit-HD3.png used on input line 313.
+(pdftex.def)             Requested size: 430.00627pt x 192.61273pt.
+
+
+LaTeX Warning: Float too large for page by 32.40646pt on input line 316.
+
+<figures/Dept-IF-HD.png, id=620, 1365.1pt x 579.16376pt>
+File: figures/Dept-IF-HD.png Graphic file (type png)
+
+<use figures/Dept-IF-HD.png>
+Package pdftex.def Info: figures/Dept-IF-HD.png used on input line 320.
+(pdftex.def)             Requested size: 430.00627pt x 182.42871pt.
+
+<figures/Dept-IF-HD2.png, id=621, 1370.11874pt x 559.08875pt>
+File: figures/Dept-IF-HD2.png Graphic file (type png)
+
+<use figures/Dept-IF-HD2.png>
+Package pdftex.def Info: figures/Dept-IF-HD2.png used on input line 321.
+(pdftex.def)             Requested size: 430.00627pt x 175.46553pt.
+
+<figures/Dept-IF-HD3.png, id=622, 1289.81876pt x 486.81876pt>
+File: figures/Dept-IF-HD3.png Graphic file (type png)
+
+<use figures/Dept-IF-HD3.png>
+Package pdftex.def Info: figures/Dept-IF-HD3.png used on input line 322.
+(pdftex.def)             Requested size: 430.00627pt x 162.29233pt.
+
+
+LaTeX Warning: Float too large for page by 12.02658pt on input line 324.
+
+<figures/Dept-Fund-HD.png, id=623, 1381.16pt x 561.09625pt>
+File: figures/Dept-Fund-HD.png Graphic file (type png)
+
+<use figures/Dept-Fund-HD.png>
+Package pdftex.def Info: figures/Dept-Fund-HD.png used on input line 328.
+(pdftex.def)             Requested size: 430.00627pt x 174.68289pt.
+
+<figures/Dept-Fund-HD2.png, id=624, 1348.03625pt x 611.28375pt>
+File: figures/Dept-Fund-HD2.png Graphic file (type png)
+
+<use figures/Dept-Fund-HD2.png>
+Package pdftex.def Info: figures/Dept-Fund-HD2.png used on input line 329.
+(pdftex.def)             Requested size: 430.00627pt x 194.98985pt.
+ [25] [26pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.355   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Dept-h-HD.png>]
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.355   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Dept-Cit-HD.png> <./
+figures/Dept-Cit-HD2.png> <./figures/Dept-Cit-HD3.png>] [28pdfTeX warning (ext4
+): destination with the same identifier (name{figure.3.21}) has been already us
+ed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.355   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Dept-IF-HD.png> <./f
+igures/Dept-IF-HD2.png> <./figures/Dept-IF-HD3.png>] [29pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.3.22}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.355   \item[HOME RUN IMPACT FACTOR]
+                                      \hfill \\ <./figures/Dept-Fund-HD.png> <.
+/figures/Dept-Fund-HD2.png>] [30]
+<figures/fig-GroupCompare-HD.png, id=656, 1402.23875pt x 560.0925pt>
+File: figures/fig-GroupCompare-HD.png Graphic file (type png)
+
+<use figures/fig-GroupCompare-HD.png>
+Package pdftex.def Info: figures/fig-GroupCompare-HD.png used on input line 388
+.
+(pdftex.def)             Requested size: 430.00627pt x 171.75523pt.
+
+<figures/fig-GroupCompare-HD2.png, id=657, 1387.1825pt x 634.37pt>
+File: figures/fig-GroupCompare-HD2.png Graphic file (type png)
+
+<use figures/fig-GroupCompare-HD2.png>
+Package pdftex.def Info: figures/fig-GroupCompare-HD2.png used on input line 38
+9.
+(pdftex.def)             Requested size: 430.00627pt x 196.64297pt.
+ [31] [32pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.415 \end{description}
+                        <./figures/fig-GroupCompare-HD.png> <./figures/fig-Grou
+pCompare-HD2.png>] [33] [34] [35] [36] [37]
+<figures/fig-flower.png, id=688, 361.35pt x 225.84375pt>
+File: figures/fig-flower.png Graphic file (type png)
+
+<use figures/fig-flower.png>
+Package pdftex.def Info: figures/fig-flower.png used on input line 503.
+(pdftex.def)             Requested size: 430.00627pt x 268.75739pt.
+ [38]
+<figures/fig-AG-global.png, id=693, 1191.45125pt x 665.48625pt>
+File: figures/fig-AG-global.png Graphic file (type png)
+
+<use figures/fig-AG-global.png>
+Package pdftex.def Info: figures/fig-AG-global.png used on input line 510.
+(pdftex.def)             Requested size: 430.00627pt x 240.17398pt.
+
+<figures/fig-AG-local.png, id=694, 1191.45125pt x 665.48625pt>
+File: figures/fig-AG-local.png Graphic file (type png)
+
+<use figures/fig-AG-local.png>
+Package pdftex.def Info: figures/fig-AG-local.png used on input line 516.
+(pdftex.def)             Requested size: 430.00627pt x 240.17398pt.
+) (./chap4_Algorithms.tex [39pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.3.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            {Software Design}\label{chap:Software Design} <./figures/fig-flower
+.png>] [40pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.3.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            {Software Design}\label{chap:Software Design} <./figures/fig-AG-glo
+bal.png (PNG copy)>] [41pdfTeX warning (ext4): destination with the same identi
+fier (name{figure.3.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            {Software Design}\label{chap:Software Design} <./figures/fig-AG-loc
+al.png (PNG copy)>]
+Chapter 4.
+[42
+
+] <figures/fig_system_architecture.pdf, id=720, 963.6pt x 542.025pt>
+File: figures/fig_system_architecture.pdf Graphic file (type pdf)
+
+<use figures/fig_system_architecture.pdf>
+Package pdftex.def Info: figures/fig_system_architecture.pdf used on input line
+ 48.
+(pdftex.def)             Requested size: 430.00627pt x 241.87442pt.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 
+     ] [44pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.4.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.59 
+      <./figures/fig_system_architecture.pdf>] [45]
+<figures/fig-name-dis-example1.png, id=824, 591.6504pt x 224.5188pt>
+File: figures/fig-name-dis-example1.png Graphic file (type png)
+
+<use figures/fig-name-dis-example1.png>
+Package pdftex.def Info: figures/fig-name-dis-example1.png used on input line 9
+1.
+(pdftex.def)             Requested size: 387.003pt x 146.86389pt.
+ [46]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 108.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+[] \OT1/cmr/bx/n/12 else [] \OT1/cmr/m/n/12 ($\OML/cmm/m/it/12 middleInitial; g
+oogleFirstName$\OT1/cmr/m/n/12 ) and
+ []
+
+<figures/fig-name-dis-example2.png, id=832, 507.3354pt x 180.675pt>
+File: figures/fig-name-dis-example2.png Graphic file (type png)
+
+<use figures/fig-name-dis-example2.png>
+Package pdftex.def Info: figures/fig-name-dis-example2.png used on input line 1
+38.
+(pdftex.def)             Requested size: 387.003pt x 137.8272pt.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.143 
+       <./figures/fig-name-dis-example1.png>]) (./chap5_Results.tex [48pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.4.3}) has been
+ already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            {Results}\label{chap:Results} <./figures/fig-name-dis-example2.png>
+]
+Chapter 5.
+[49
+
+] <figures/fig_survey_chart.png, id=850, 1181.3736pt x 516.0078pt>
+File: figures/fig_survey_chart.png Graphic file (type png)
+
+<use figures/fig_survey_chart.png>
+Package pdftex.def Info: figures/fig_survey_chart.png used on input line 17.
+(pdftex.def)             Requested size: 430.00627pt x 187.81767pt.
+ [50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.30 \begin{description}
+                         <./figures/fig_survey_chart.png>]
+<figures/fig_panel1-N.png, id=856, 1289.81876pt x 417.56pt>
+File: figures/fig_panel1-N.png Graphic file (type png)
+
+<use figures/fig_panel1-N.png>
+Package pdftex.def Info: figures/fig_panel1-N.png used on input line 40.
+(pdftex.def)             Requested size: 430.00627pt x 139.20331pt.
+ [51]
+<figures/fig_panel3-N.png, id=861, 1289.81876pt x 266.9975pt>
+File: figures/fig_panel3-N.png Graphic file (type png)
+
+<use figures/fig_panel3-N.png>
+Package pdftex.def Info: figures/fig_panel3-N.png used on input line 47.
+(pdftex.def)             Requested size: 430.00627pt x 89.0098pt.
+
+<figures/fig_panel2-N.png, id=862, 1280.785pt x 417.56pt>
+File: figures/fig_panel2-N.png Graphic file (type png)
+
+<use figures/fig_panel2-N.png>
+Package pdftex.def Info: figures/fig_panel2-N.png used on input line 54.
+(pdftex.def)             Requested size: 430.00627pt x 140.18451pt.
+ [52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 
+      <./figures/fig_panel1-N.png (PNG copy)> <./figures/fig_panel3-N.png (PNG 
+copy)>] <figures/fig_panel4-N.png, id=867, 1280.785pt x 266.9975pt>
+File: figures/fig_panel4-N.png Graphic file (type png)
+
+<use figures/fig_panel4-N.png>
+Package pdftex.def Info: figures/fig_panel4-N.png used on input line 61.
+(pdftex.def)             Requested size: 430.00627pt x 89.6372pt.
+ [53pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.75 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.75 
+      <./figures/fig_panel2-N.png (PNG copy)> <./figures/fig_panel4-N.png (PNG 
+copy)>] <figures/fig-UH-Local.png, id=876, 1152.305pt x 625.33624pt>
+File: figures/fig-UH-Local.png Graphic file (type png)
+
+<use figures/fig-UH-Local.png>
+Package pdftex.def Info: figures/fig-UH-Local.png used on input line 83.
+(pdftex.def)             Requested size: 387.003pt x 210.01613pt.
+ [54]
+<figures/fig-UH-Global.png, id=882, 1155.31625pt x 626.34pt>
+File: figures/fig-UH-Global.png Graphic file (type png)
+
+<use figures/fig-UH-Global.png>
+Package pdftex.def Info: figures/fig-UH-Global.png used on input line 90.
+(pdftex.def)             Requested size: 387.003pt x 209.80847pt.
+
+<figures/fig-MIT-Global.png, id=883, 1158.3275pt x 629.35126pt>
+File: figures/fig-MIT-Global.png Graphic file (type png)
+
+<use figures/fig-MIT-Global.png>
+Package pdftex.def Info: figures/fig-MIT-Global.png used on input line 99.
+(pdftex.def)             Requested size: 387.003pt x 210.26979pt.
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.103 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.103 
+       <./figures/fig-UH-Local.png> <./figures/fig-UH-Global.png>]
+<figures/fig-MIT-Local.png, id=890, 1156.32pt x 628.3475pt>
+File: figures/fig-MIT-Local.png Graphic file (type png)
+
+<use figures/fig-MIT-Local.png>
+Package pdftex.def Info: figures/fig-MIT-Local.png used on input line 106.
+(pdftex.def)             Requested size: 387.003pt x 210.29877pt.
+ [56pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.119 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.119 
+       <./figures/fig-MIT-Global.png> <./figures/fig-MIT-Local.png>] [57pdfTeX 
+warning (ext4): destination with the same identifier (name{table.5.1}) has been
+ already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.177 
+      ] <figures/CS-Local-Quartile.png, id=910, 1323.94624pt x 691.58376pt>
+File: figures/CS-Local-Quartile.png Graphic file (type png)
+
+<use figures/CS-Local-Quartile.png>
+Package pdftex.def Info: figures/CS-Local-Quartile.png used on input line 186.
+(pdftex.def)             Requested size: 430.00627pt x 224.61432pt.
+ [58pdfTeX warning (ext4): destination with the same identifier (name{table.5.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.193 
+      ] <figures/BIO-local-funding.png, id=917, 1317.92375pt x 688.5725pt>
+File: figures/BIO-local-funding.png Graphic file (type png)
+
+<use figures/BIO-local-funding.png>
+Package pdftex.def Info: figures/BIO-local-funding.png used on input line 198.
+(pdftex.def)             Requested size: 430.00627pt x 224.66597pt.
+) (./chap6_Conclusion.tex [59pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.5.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            {Conclusion}\label{chap:Conclusion} <./figures/CS-Local-Quartile.pn
+g>] [60pdfTeX warning (ext4): destination with the same identifier (name{figure
+.5.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            {Conclusion}\label{chap:Conclusion} <./figures/BIO-local-funding.pn
+g>]
+Chapter 6.
+[61
+
+] [62]) (./Appendix.tex [63]
+Chapter 7.
+<figures/Support-3.png, id=945, 602.25pt x 182.6825pt>
+File: figures/Support-3.png Graphic file (type png)
+
+<use figures/Support-3.png>
+Package pdftex.def Info: figures/Support-3.png used on input line 18.
+(pdftex.def)             Requested size: 430.00627pt x 130.44136pt.
+
+<figures/Support-4.png, id=946, 602.25pt x 276.03125pt>
+File: figures/Support-4.png Graphic file (type png)
+
+<use figures/Support-4.png>
+Package pdftex.def Info: figures/Support-4.png used on input line 28.
+(pdftex.def)             Requested size: 430.00627pt x 197.09549pt.
+ [64
+
+]
+<figures/Support-1.png, id=952, 1138.2525pt x 829.0975pt>
+File: figures/Support-1.png Graphic file (type png)
+
+<use figures/Support-1.png>
+Package pdftex.def Info: figures/Support-1.png used on input line 52.
+(pdftex.def)             Requested size: 430.00627pt x 313.21329pt.
+
+<figures/Support-2.png, id=953, 1138.2525pt x 829.0975pt>
+File: figures/Support-2.png Graphic file (type png)
+
+<use figures/Support-2.png>
+Package pdftex.def Info: figures/Support-2.png used on input line 67.
+(pdftex.def)             Requested size: 430.00627pt x 313.21329pt.
+
+<figures/fig-paste.png, id=954, 1445.4pt x 903.375pt>
+File: figures/fig-paste.png Graphic file (type png)
+
+<use figures/fig-paste.png>
+Package pdftex.def Info: figures/fig-paste.png used on input line 74.
+(pdftex.def)             Requested size: 430.00627pt x 268.75395pt.
+) (./kkwon2.bbl [65] [66pdfTeX warning (ext4): destination with the same identi
+fier (name{figure.7.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{10}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.7.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{10}
+                                <./figures/Support-3.png> <./figures/Support-4.
+png>] [67pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.7.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{10}
+                                <./figures/Support-1.png (PNG copy)>] [68pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.7.4}) has be
+en already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{10}
+                                <./figures/Support-2.png (PNG copy)>] [69pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.7.5}) has be
+en already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \begin{thebibliography}{10}
+                                <./figures/fig-paste.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+\OT1/cmtt/m/n/12 desktop ? _nfpb = true & _eventName = viewQuickSearchFormEvent
+ _ so _ rsr$[]\OT1/cmr/m/n/12 ,
+ []
+
+[70
+
+]
+Underfull \hbox (badness 5050) in paragraph at lines 137--142
+[]\OT1/cmr/m/n/12 T. Reuters.  Thom-son reuters - ip & sci-ence - web of sci-en
+ce.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--142
+[]$\OT1/cmtt/m/n/12 http : / / ipscience . thomsonreuters . com / product / web
+-[]of-[]science / ?utm _
+ []
+
+[71])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+ [72]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+ (./kkwon2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package rerunfilecheck Info: File `kkwon2.out' has not changed.
+(rerunfilecheck)             Checksum: 9AEC1BFE7B8372D72E522F003B1D33C9;2701.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+ ) 
+Here is how much of TeX's memory you used:
+ 8415 strings out of 493027
+ 124947 string characters out of 6134069
+ 217173 words of memory out of 5000000
+ 11562 multiletter control sequences out of 15000+600000
+ 10692 words of font info for 38 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,7n,32p,1541b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on kkwon2.pdf (85 pages, 7237499 bytes).
+PDF statistics:
+ 1100 PDF objects out of 1200 (max. 8388607)
+ 858 compressed objects within 9 object streams
+ 209 named destinations out of 1000 (max. 500000)
+ 610 words of extra memory for PDF output out of 10000 (max. 10000000)
+
